@@ -1,43 +1,1348 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Ebay Ebook</title>
+<!DOCTYPE html>
+<html class="no-js">
+   <head>
+      <meta charset="utf-8">
+      <title>The Elevate Toolkit</title>
+      <meta name="description" content="">
+      <meta name="HandheldFriendly" content="True">
+      <meta name="MobileOptimized" content="320">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta http-equiv="cleartype" content="on">
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+      <link rel="shortcut icon" sizes="196x196" href="img/touch/touch-icon-196x196.png">
+      <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+      <!-- Tile icon for Win8 (144x144 + tile color) -->
+      <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+      <meta name="msapplication-TileColor" content="#222222">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/hover-min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+      <link rel="stylesheet" href="css/izmir.min.css">
+      <link rel="stylesheet" href="./wow_book/wow_book.css" type="text/css" />
+      <link rel="stylesheet" href="css/main.css">
+      <script src="https://kit.fontawesome.com/70f9b07a6d.js" crossorigin="anonymous"></script>
+      <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+	  <script src="scorm/trace.js"></script>
+	  <script src="scorm/scormCalls.js"></script>
+   </head>
+   <body>
+   
+	  <script type="text/javascript">
+		var lmsInitialized = initializeLms();
+		console.log("lmsInitialized set: " + lmsInitialized);		
+		var lessonStatus = "incomplete";
+		console.log("lessonStatus set: " + lessonStatus);
+		function lmsmarkcomplete() {
+			//alert("lms marked complete");
+			if (lmsInitialized) {
+				setLessonStatus("completed");
+				console.log("lessonStatus test: " + lessonStatus);
+				lmsCommit();
+			}
+		}		
+		function killScorm() {
+			lmsFinish();
+		}		
+	  </script>
 	
-	<style>
-	
-		.container {
-			display: flex;
-			justify-content: center;
-			min-height: 100vh;
-			align-items: center;
-			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-			font-size: 3rem;
-		}
-		.title-container {
-		    min-height: 5rem;
-    min-width: 40rem;
-    border: 8px #51bbbb solid;
-    background: #eaeaea;
-    display: flex;
-    justify-content: center;
-}
-		}
-	
-	
-	
-	</style>
-</head>
-
-<body>
-	
-	<div class="container">
-	
-		<div class="title-container">
-		<h3>Ebay Ebook</h3>
-		</div>
-	
-	
-	</div>
-</body>
+      <div class="book_container">
+         <div id="book">
+            <!-- Front Cover -->
+            <!-- page start -->
+            <div class="cover-image front-cover" data-image-src="img/front-cover-001.jpg">
+               <div class="page-section-title">
+                  <span>The Elevate Toolkit</span>
+               </div>
+               <h1 class="front-cover-title-02">Elevate your <br>marketing strategy<br> on Facebook</h1>
+               <div class="cover-btm-logo">
+                  <a href="https://www.facebook.com/fbelevate" target="_blank"><img src="img/Facebook_Elevate_Logos_Black.svg" alt="Facebook Elevate" width="230px" height="auto" class="padding-btm-sm"></a>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-24">
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-25">
+               <div class="page-container">
+                  <div class="page-cont-24">
+                     <div class="page-section-title">
+                        <span>Section 1: Introduction</span>
+                     </div>
+                     <h2>Who is <br>Facebook Elevate?</h2>
+                     <p>Our program was founded in 2018 by a group of intrepid Facebook employees who shared a singular vision: to support local communities of color. Together they launched Elevate with a mission to accelerate the economic success and impact of Black, Latinx and Hispanic communities by providing access to free marketing education, mentorship, and support.</p>
+                     <h6>Who is Elevate for?</h6>
+                     <ul>
+                        <li>Small businesses</li>
+                        <li>Content creators</li>
+                        <li>Nonprofits</li>
+                        <li>Community leaders</li>
+                        <li>Job seekers and students</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-26">
+               <div class="page-container">
+                  <div class="page-section-title">
+                     <span>Section 1: Introduction</span>
+                  </div>
+                  <div class="page-cont-26">
+                     <h2>What does Elevate offer? </h2>
+                     <p class="para-sub-title">Workshops</p>
+                     <p>A series of virtual educational sessions offered to Elevate participants to learn the fundamentals of marketing on Facebook.</p>
+                     <span class="_8429">
+                        <a role="button" class="_42ft _83e- _946m" href="https://www.elevateandlearn.com/student/catalog" target="_blank">
+                           <span class="_8429">
+                              <span class="_945q">
+                                 <div class="_946n">
+                                    <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                       <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                          <g stroke-width="1.6">
+                                             <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                             <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                          </g>
+                                       </g>
+                                    </svg>
+                                 </div>
+                              </span>
+                              Learn more
+                           </span>
+                        </a>
+                     </span>
+                     <p class="para-sub-title">Live</p>
+                     <p>Virtual inspirational sessions that showcase speakers who share their inspiring stories of overcoming obstacles.</p>
+                     <span class="_8429">
+                        <a role="button" class="_42ft _83e- _946m" href="https://www.facebook.com/fbelevate/live" target="_blank">
+                           <span class="_8429">
+                              <span class="_945q">
+                                 <div class="_946n">
+                                    <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                       <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                          <g stroke-width="1.6">
+                                             <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                             <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                          </g>
+                                       </g>
+                                    </svg>
+                                 </div>
+                              </span>
+                              Learn more
+                           </span>
+                        </a>
+                     </span>
+                     <p class="para-sub-title">Advanced Access</p>
+                     <p>Partners small business owners with a dedicated account manager to help identify business challenges and offer up customized strategies and solutions.</p>
+                     <span class="_8429">
+                        <a role="button" class="_42ft _83e- _946m" href="https://www.facebook.com/fbelevate/facebook-elevate-advanced-access" target="_blank">
+                           <span class="_8429">
+                              <span class="_945q">
+                                 <div class="_946n">
+                                    <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                       <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                          <g stroke-width="1.6">
+                                             <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                             <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                          </g>
+                                       </g>
+                                    </svg>
+                                 </div>
+                              </span>
+                              Learn more
+                           </span>
+                        </a>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-27">
+               <div class="page-container">
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-28">
+               <div class="page-container">
+                  <div class="page-section-title">
+                     <span>Section 1: Introduction</span>
+                  </div>
+                  <div class="page-cont-28">
+                     <h2>Goal of <br>the toolkit</h2>
+                     <p>This is your guide to understanding the digital marketing tools and resources we have made available in support of small businesses.</p>
+                  </div>
+                  <div class="page-cont-28b">
+                     <article>
+                        <div class="main-content">
+                           <main class="page-content">
+                              <!-- start card -->
+                              <div class="tile">
+                                 <a href="#book/9">
+                                    <div class="text">
+                                       <h1>Bring your<br>business online</h1>
+                                       <span class="_8429 animate-text">
+                                          <span role="button" class="_42ft _83e- _946m" href="#book/9">
+                                             <span class="_8429">
+                                                <span class="_945q">
+                                                   <div class="_946n">
+                                                      <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                                         <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                                            <g stroke-width="1.6">
+                                                               <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                                               <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                                            </g>
+                                                         </g>
+                                                      </svg>
+                                                   </div>
+                                                </span>
+                                                Learn more
+                                             </span>
+                                          </span>
+                                       </span>
+                                    </div>
+                                 </a>
+                              </div>
+                              <!-- start card -->
+                              <div class="tile">
+                                 <a href="#book/21">
+                                    <div class="text">
+                                       <h1>Engage your<br> audience</h1>
+                                       <span class="_8429 animate-text">
+                                          <span role="button" class="_42ft _83e- _946m" href="#book/21">
+                                             <span class="_8429">
+                                                <span class="_945q">
+                                                   <div class="_946n">
+                                                      <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                                         <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                                            <g stroke-width="1.6">
+                                                               <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                                               <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                                            </g>
+                                                         </g>
+                                                      </svg>
+                                                   </div>
+                                                </span>
+                                                Learn more
+                                             </span>
+                                          </span>
+                                       </span>
+                                    </div>
+                                 </a>
+                              </div>
+                              <!-- start card -->
+                              <div class="tile">
+                                 <a href="#book/35">
+                                    <div class="text">
+                                       <h1>Scale your efforts<br> with advertising</h1>
+                                       <span class="_8429 animate-text">
+                                          <span role="button" class="_42ft _83e- _946m" href="#book/35">
+                                             <span class="_8429">
+                                                <span class="_945q">
+                                                   <div class="_946n">
+                                                      <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                                         <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                                            <g stroke-width="1.6">
+                                                               <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                                               <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                                            </g>
+                                                         </g>
+                                                      </svg>
+                                                   </div>
+                                                </span>
+                                                Learn more
+                                             </span>
+                                          </span>
+                                       </span>
+                                    </div>
+                                 </a>
+                              </div>
+                              <!-- start card -->
+                              <div class="tile">
+                                 <a href="#book/47">
+                                    <div class="text">
+                                       <h1>Resources to <br>get started</h1>
+                                       <span class="_8429 animate-text">
+                                          <span role="button" class="_42ft _83e- _946m" href="#book/47">
+                                             <span class="_8429">
+                                                <span class="_945q">
+                                                   <div class="_946n">
+                                                      <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                                         <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                                            <g stroke-width="1.6">
+                                                               <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                                               <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                                            </g>
+                                                         </g>
+                                                      </svg>
+                                                   </div>
+                                                </span>
+                                                Learn more
+                                             </span>
+                                          </span>
+                                       </span>
+                                    </div>
+                                 </a>
+                              </div>
+                           </main>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-29">
+               <div class="page-container">
+                  <div class="page-cont-29d">
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-03">
+               <div class="page-container">
+                  <div class="page-cont-04">
+                     <div class="page-section-title">
+                        <span class="white-text section-2-align">Section 2</span>
+                     </div>
+                     <h2>Bring your<br> business<br> online</h2>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-04">
+               <div class="page-container">
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-05">
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-06">
+               <div class="page-container">
+                  <div class="page-cont-05">
+                     <div class="page-section-title">
+                        <span>Section 2: Bring your business online</span>
+                     </div>
+                     <img src="img/f_logo_RGB-Blue_512.png" alt="Facebook" width="50" height="50">
+                     <h2>Facebook Page</h2>
+                     <p>Think of a Facebook business Page as your digital storefront. It’s the place where people go to learn more about your offerings and helps potential new customers discover your business. </p>
+                     <span class="_8429">
+                        <a role="button" class="_42ft _83e- _946m" href="https://facebook.com/pages/create" target="_blank">
+                           <span class="_8429">
+                              <span class="_945q">
+                                 <div class="_946n">
+                                    <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                       <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                          <g stroke-width="1.6">
+                                             <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                             <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                          </g>
+                                       </g>
+                                    </svg>
+                                 </div>
+                              </span>
+                              Create a Facebook Page
+                           </span>
+                        </a>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start instagram -->
+            <div class="page-bg-07">
+               <div class="page-cont-07">
+                  <!--<img src="img/instagram.gif" alt="" width="500" height="833">-->
+                  <div class="page-cont-07b-device">
+                     <img src="img/PhoneXLightNeutral.png" alt="" width="400" height="800" >
+                  </div>
+                  <div class="page-cont-07b">
+                     <span>
+                     <img src="img/instagramGIFupdated.gif" alt="" width="100%" height="100%">
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start instagram -->
+            <div class="page-bg-08">
+               <div class="page-container">
+                  <div class="page-cont-06">
+                     <div class="page-section-title">
+                        <span>Section 2: Bring your business online</span>
+                     </div>
+                     <img src="img/Instagram_Glyph_Gradient_RGB.png" alt="Instagram" width="50" height="50">
+                     <h2 style="color: rgb(0, 0, 0);">Instagram<br>business account</h2>
+                     <p>Instagram business accounts provide tools like Instagram Shopping, message organization and advertising options that can help businesses build a presence on Instagram. Convert a personal account to a business account in the account settings.</p>
+                     <span class="_8429">
+                        <a role="button" class="_42ft _83e- _946m" href="https://business.instagram.com/getting-started" target="_blank">
+                           <span class="_8429">
+                              <span class="_945q">
+                                 <div class="_946n">
+                                    <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                       <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                          <g stroke-width="1.6">
+                                             <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                             <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                          </g>
+                                       </g>
+                                    </svg>
+                                 </div>
+                              </span>
+                              Create an Instagram business account
+                           </span>
+                        </a>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start whatsapp -->
+            <div class="page-bg-09">
+               <div class="page-container">
+                  <div class="page-cont-09">
+                     <div class="page-section-title">
+                        <span>Section 2: Bring your business online</span>
+                     </div>
+                     <img src="img/WhatsApp_Logo_1.png" alt="WhatsApp" width="50" height="50">
+                     <h2>WhatsApp <br>for Business</h2>
+                     <p>The WhatsApp Business app makes it easy for businesses to communicate with customers, highlight products and services and answer people’s questions throughout the shopping experience.</p>
+                     <span class="_8429">
+                        <a role="button" class="_42ft _83e- _946m" href="https://www.facebook.com/business/whatsapp/get-started" target="_blank">
+                           <span class="_8429">
+                              <span class="_945q">
+                                 <div class="_946n">
+                                    <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                       <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                          <g stroke-width="1.6">
+                                             <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                             <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                          </g>
+                                       </g>
+                                    </svg>
+                                 </div>
+                              </span>
+                              Get started with WhatsApp for Business
+                           </span>
+                        </a>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start whatsapp -->
+            <div class="page-bg-10">
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-30">
+               <div class="page-container">
+                  <div class="page-cont-30">
+                     <div class="page-section-title">
+                        <span>Section 2: Bring your business online</span>
+                     </div>
+                     <h2>Self-designation as a diverse business category </h2>
+                     <p>Help locals find you by designating your Page as diverse-owned. For example, you can list your business as Black-owned or Latinx or Hispanic-owned with this tool. Making this change can help people in your community to find and engage with your business in the <strong>Businesses Nearby</strong> section.</p>
+                     <span class="_8429">
+                        <a role="button" class="_42ft _83e- _946m" href="https://www.facebook.com/business/help/2516947855262856" target="_blank">
+                           <span class="_8429">
+                              <span class="_945q">
+                                 <div class="_946n">
+                                    <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                       <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                          <g stroke-width="1.6">
+                                             <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                             <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                          </g>
+                                       </g>
+                                    </svg>
+                                 </div>
+                              </span>
+                              Designate Your Page as a Diverse Business
+                           </span>
+                        </a>
+                     </span>
+                  </div>
+                  <div class="page-cont-30b">
+                     <img src="img/add-diversity-00001.jpg" alt="" width="400" height="462">
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-31">
+               <div class="page-cont-31">
+                  <video controls width="550" id="video-01">
+                     <source src="video/BHM-Product-Tip-Video-1.mp4" type="video/mp4">
+                     <source src="video/BHM-Product-Tip-Video-1.ogg" type="video/ogg">
+                     <source src="video/BHM-Product-Tip-Video-1.webm" type="video/webm">
+                     Sorry, your browser doesn't support embedded videos.
+                  </video>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-32">
+               <div class="page-container">
+                  <div class="page-cont-32">
+                     <div class="page-section-title">
+                        <span>Section 2: Bring your business online</span>
+                     </div>
+                     <h2>Create and<br>publish content</h2>
+                     <p>Connect and engage with your customers with various types of content across Facebook and Instagram.</p>
+                  </div>
+               </div>
+               <div class="page-cont-32b">
+                  <img src="img/fb-elevate-001.jpg" width="632" height="auto" alt="">				
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-33">
+               <div class="page-cont-33">
+                  <div id="slider">
+                     <a href="#" class="control_next"> </a>
+                     <a href="#" class="control_prev"> </a>
+                     <ul>
+                        <li>
+                           <span>
+                              <div class="page-cont-33b-device">
+                                 <img src="img/PhoneXLightNeutral.png" alt="" width="272" height="544" >
+                              </div>
+                              <div class="page-cont-33b">
+                                 <span>
+                                 <img src="img/IG_Post_Littlelemon.png" alt="" width="100%" height="100%">
+                                 </span>
+                              </div>
+                              <h3>Posts</h3>
+                              Post on Facebook and Instagram to share information about new products and upcoming events.
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <div class="page-cont-33b-device">
+                                 <img src="img/PhoneXLightNeutral.png" alt="" width="272" height="544" >
+                              </div>
+                              <div class="page-cont-33b">
+                                 <span>
+                                 <img src="img/Stories.gif" alt="" width="100%" height="100%">
+                                 </span>
+                              </div>
+                              <h3>Stories</h3>
+                              When you use Stories, you can attract people’s attention with bite-sized content in a vertical fullscreen format with content that disappears in 24 hours. Show an authentic side of your business, tell your business’s story in a creative and unique way and invite your community to engage with you through Stories’ interactive features.
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <div class="page-cont-33b-device">
+                                 <img src="img/PhoneXLightNeutral.png" alt="" width="272" height="544" >
+                              </div>
+                              <div class="page-cont-33b">
+                                 <span>
+                                 <img src="img/Facebook_Live_Hairday.gif" alt="" width="100%" height="100%">
+                                 </span>
+                              </div>
+                              <h3>Live</h3>
+                              Broadcast live on Facebook and Instagram to stream a conversation, performance, Q&A or virtual event. When broadcasting live, your community has the opportunity to follow along in real time and join the conversation by asking questions, commenting and reacting to your video.
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <div class="page-cont-33b-device">
+                                 <img src="img/PhoneXLightNeutral.png" alt="" width="272" height="544" >
+                              </div>
+                              <div class="page-cont-33b">
+                                 <span>
+                                 <img src="img/Reels-littlelemon.gif" alt="" width="100%" height="100%">
+                                 </span>
+                              </div>
+                              <h3>Reels</h3>
+                              Reels invites you to create fun videos to share with your friends or anyone on Instagram. Record and edit 15-second multi-clip videos with audio, effects and new creative tools.
+                           </span>
+                        </li>
+                        <li>
+                           <span>
+                              <div class="page-cont-33b-device">
+                                 <img src="img/PhoneXLightNeutral.png" alt="" width="272" height="544" >
+                              </div>
+                              <div class="page-cont-33b">
+                                 <span>
+                                 <img src="img/IGTV.gif" alt="" width="100%" height="100%">
+                                 </span>
+                              </div>
+                              <h3>IGTV</h3>
+                              IGTV is long-form, immersive video. It can be as long as you want, and takes over people’s entire screens. Similar to Stories or photo and video feed posts, you can like, comment and share IGTV videos with friends.
+                           </span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-34">
+               <div class="page-container">
+                  <div class="page-section-title">
+                     <span>Section 3</span>
+                  </div>
+                  <div class="page-cont-34">
+                     <h2>Engage <br>your<br> audience</h2>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-35">
+               <div class="page-container">
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start  -->
+            <div class="page-bg-37">
+               <div class="page-container">
+                  <div class="page-section-title">
+                     <span>Section 3: Engage your audience</span>
+                  </div>
+                  <h2>Small Business Tools</h2>
+                  <div class="page-cont-37b">
+                     <video controls width="500" id="video-02">
+                        <source src="video/BHM-Product-Tip-Video-3.mp4" type="video/mp4">
+                        <source src="video/BHM-Product-Tip-Video-3.ogg" type="video/ogg">
+                        <source src="video/BHM-Product-Tip-Video-3.webm" type="video/webm">
+                        Sorry, your browser doesn't support embedded videos.
+                     </video>
+                     <div class="tabs">
+                        <input type="radio" name="tabs" id="tabone" checked="checked">
+                        <label for="tabone">Events</label>
+                        <div class="tab">
+                           <p>Create events on your Page to build community around your business. You can set up free or paid online events for your business, as well as manage who you want to invite, check who has RSVP’d and share messages about your events directly from your Page.</p>
+                        </div>
+                        <input type="radio" name="tabs" id="tabtwo">
+                        <label for="tabtwo">Groups</label>
+                        <div class="tab">
+                           <p>Provide a space for people to connect and strengthen relationships between your community members with Facebook Groups. Welcome new members when they join, encourage members to invite their friends and prompt conversation with questions.</p>
+                        </div>
+                        <input type="radio" name="tabs" id="tabthree">
+                        <label for="tabthree">Shops</label>
+                        <div class="tab">
+                           <p>Create a unique shopping experience on Facebook and Instagram. When you create a shop, your customers can browse, explore and purchase your products directly from the virtual storefront on your Facebook business Page or Instagram business account, on both desktop and mobile.</p>
+                        </div>
+                        <input type="radio" name="tabs" id="tabfour">
+                        <label for="tabfour">Appointments</label>
+                        <div class="tab">
+                           <p>An online scheduling tool that enables customers to book services with your business directly from your Facebook Page.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start  -->
+            <div class="page-bg-36">
+               <div class="page-cont-36">
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start  -->
+            <div class="page-bg-40">
+               <div class="page-cont-40">
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start  -->
+            <div class="page-bg-41">
+               <div class="page-container">
+                  <div class="page-cont-41a">
+                     <div class="page-section-title">
+                        <span>Section 3: Engage your audience</span>
+                     </div>
+                     <h2>Messaging tools</h2>
+                     <p>Messaging tools from Facebook include Messenger, Instagram Direct and WhatsApp. These tools make it easy to have conversations with new and existing customers and build a custom presence for your business. Small businesses can use these messaging tools to raise awareness, generate leads, increase sales and provide support.</p>
+                  </div>
+                  <div class="page-cont-41">
+                     <span>
+                        <img src="img/checkmark-circle-outline.svg" alt="" width="30" height="30"> 
+                        <p>Set a customizable greeting to appear when someone begins a conversation with your business for the first time.</p>
+                     </span>
+                     <span>
+                        <img src="img/checkmark-circle-outline.svg" alt="" width="30" height="30">
+                        <p>Turn on instant replies to send an automated reply when you receive a message.</p>
+                     </span>
+                     <span>
+                        <img src="img/checkmark-circle-outline.svg" alt="" width="30" height="30">
+                        <p>Use an away message to let customers know that you’ll respond soon.</p>
+                     </span>
+                     <span>
+                        <img src="img/checkmark-circle-outline.svg" alt="" width="30" height="30">
+                        <p>Be responsive to your customers.</p>
+                     </span>
+                     <span>
+                        <img src="img/checkmark-circle-outline.svg" alt="" width="30" height="30">
+                        <p>Write the way you speak.</p>
+                     </span>
+                  </div>
+                  <div class="page-cont-41b">
+                     <p class="para-sub-title">Messaging best practices</p>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-38">
+               <div class="page-container">
+                  <div class="page-cont-38">
+                     <div class="page-section-title">
+                        <span>Section 3: Engage Your Audience</span>
+                     </div>
+                     <h2>Tools for nonprofits</h2>
+                     <p>You can collect donations through Facebook two ways: Ask your community for donations from your organization’s Facebook Page, or supporters can ask their networks for donations on your behalf.</p>
+                     <p>Available fundraising tools include:</p>
+                  </div>
+                  <div class="page-cont-38b">
+                     <ul class="tabs-02">
+                        <li class="tab-link current" data-tab="tab-3">
+                           <span class="fb_8429">
+                              <a role="button" class="fb_42ft fb_83e- fb_946m tabs-link">
+                                 Donate sticker with Instagram Stories
+                                 <span class="fb_8429">
+                                    <span class="fb_945q">
+                                       <div class="fb_946n">
+                                          <svg viewBox="0 0 24 24" class="fb_93jf fb_93iw" xmlns="http://www.w3.org/2000/svg">
+                                             <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                                <g stroke-width="1.6">
+                                                   <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                                   <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                                </g>
+                                             </g>
+                                          </svg>
+                                       </div>
+                                    </span>
+                                 </span>
+                              </a>
+                           </span>
+                        </li>
+                        <li class="tab-link" data-tab="tab-1">
+                           <span class="fb_8429">
+                              <a role="button" class="fb_42ft fb_83e- fb_946m tabs-link">
+                                 Page fundraisers
+                                 <span class="fb_8429">
+                                    <span class="fb_945q">
+                                       <div class="fb_946n">
+                                          <svg viewBox="0 0 24 24" class="fb_93jf fb_93iw" xmlns="http://www.w3.org/2000/svg">
+                                             <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                                <g stroke-width="1.6">
+                                                   <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                                   <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                                </g>
+                                             </g>
+                                          </svg>
+                                       </div>
+                                    </span>
+                                 </span>
+                              </a>
+                           </span>
+                        </li>
+                        <li class="tab-link" data-tab="tab-2">
+                           <span class="fb_8429">
+                              <a role="button" class="fb_42ft fb_83e- fb_946m tabs-link">
+                                 Post or Live With Donate
+                                 <span class="fb_8429">
+                                    <span class="fb_945q">
+                                       <div class="fb_946n">
+                                          <svg viewBox="0 0 24 24" class="fb_93jf fb_93iw" xmlns="http://www.w3.org/2000/svg">
+                                             <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                                <g stroke-width="1.6">
+                                                   <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                                   <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                                </g>
+                                             </g>
+                                          </svg>
+                                       </div>
+                                    </span>
+                                 </span>
+                              </a>
+                           </span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-39">
+               <div class="page-cont-39">
+                  <div id="tab-1" class="tab-content">
+                     <h3>Page fundraisers</h3>
+                     <p>A Page fundraiser is a dedicated place where you can tell people about your mission and rally behind a fundraising goal.</p>
+                     <div class="page-cont-39b-device">
+                        <img src="img/tool-page-fundraiser.png" alt="" width="272" height="544" >
+                     </div>
+                  </div>
+                  <div id="tab-2" class="tab-content">
+                     <h3>Post or Live With Donate</h3>
+                     <p>Add a <strong>Donate</strong> button to any photo, or use Facebook Live With Donate to connect with and inform supporters in real time.</p>
+                     <div class="page-cont-39b-device">
+                        <img src="img/tool-page-post-live-donate.png" alt="" width="272" height="544" >
+                     </div>
+                  </div>
+                  <div id="tab-3" class="tab-content current">
+                     <h3>Donate sticker with Instagram Stories</h3>
+                     <p>Add a donate sticker to your story to create a fundraiser and encourage your supporters to donate to your cause directly on Instagram.</p>
+                     <div class="page-cont-39b-device">
+                        <img src="img/PhoneXLightNeutral.png" alt="" width="272" height="544" >
+                     </div>
+                     <div class="page-cont-39b">
+                        <span>
+                        <img src="img/Stories_donate.gif" alt="" width="100%" height="100%">
+                        </span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start  -->
+            <div class="page-bg-42">
+               <div class="page-cont-42">
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start  -->
+            <div class="page-bg-43">
+               <div class="page-container">
+                  <div class="page-cont-43">
+                     <div class="page-section-title">
+                        <span>Section 3: Engage your audience</span>
+                     </div>
+                     <h2>Content <br>management tools</h2>
+                  </div>
+                  <div class="page-cont-43b">
+                     <p>Business Suite enables you to manage all of your connected accounts across Facebook and Instagram in one place. It offers a variety of tools that make it easier to manage your business presence. Business Suite can help you reach more people and stay updated while you manage your business presence more efficiently.</p>
+                     <span class="_8429">
+                        <a role="button" class="_42ft _83e- _946m" href="https://www.facebook.com/business/learn/lessons/connect-with-customers-on-facebook-business-suite" target="_blank">
+                           <span class="_8429">
+                              <span class="_945q">
+                                 <div class="_946n">
+                                    <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                       <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                          <g stroke-width="1.6">
+                                             <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                             <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                          </g>
+                                       </g>
+                                    </svg>
+                                 </div>
+                              </span>
+                              Learn more about Facebook Business Suite
+                           </span>
+                        </a>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-56">
+               <div class="page-container">
+                  <div class="page-cont-56">
+                     <div class="page-section-title">
+                        <span>Section 3: Engage Your Audience</span>
+                     </div>
+                     <h2>Improve your <br>creative strategy</h2>
+                     <p>Create new assets by building a DIY studio.</p>
+                  </div>
+                  <div class="page-cont-56d">
+                     <img src="img/fb-elevate-creative-strategy-03.jpg" width="692px" height="auto" alt="">
+                  </div>
+                  <div class="page-cont-56c">
+                     <p class="para-sub-title">How to get started:</p>
+                  </div>
+                  <div class="page-cont-56b">
+                     <span>
+                        <img src="img/checkmark-circle-outline-green.svg" alt="" width="30" height="30"> 
+                        <p>Set up your home studio near a natural light source such as a window. Use white paper or poster board to reflect or bounce light if needed.</p>
+                     </span>
+                     <span>
+                        <img src="img/checkmark-circle-outline-green.svg" alt="" width="30" height="30">
+                        <p>Leave enough room to crop your video or images for posts (1:1) and Stories (9:16).</p>
+                     </span>
+                     <span>
+                        <img src="img/checkmark-circle-outline-green.svg" alt="" width="30" height="30">
+                        <p>Stabilize your mobile device using a tripod. If you don’t have one available, get crafty and use household items such as books. Remove clutter from the frame so your products are the main focus.</p>
+                     </span>
+                     <span>
+                        <img src="img/checkmark-circle-outline-green.svg" alt="" width="30" height="30">
+                        <p>Reposition your camera and shoot from different angles and backgrounds.</p>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-57">
+               <div class="page-cont-57">
+                  <video controls width="450" id="video-03">
+                     <source src="video/creative-shop.mp4" type="video/mp4">
+                     <source src="video/creative-shop.ogg" type="video/ogg">
+                     <source src="video/creative-shop.webm" type="video/webm">
+                     Sorry, your browser doesn't support embedded videos.
+                  </video>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-59">
+               <div class="page-cont-59">
+                  <video controls width="500" id="video-04">
+                     <source src="video/BHM-Product-Tip-Video-2.mp4" type="video/mp4">
+                     <source src="video/BHM-Product-Tip-Video-2.ogg" type="video/ogg">
+                     <source src="video/BHM-Product-Tip-Video-2.webm" type="video/webm">
+                     Sorry, your browser doesn't support embedded videos.
+                  </video>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-58">
+               <div class="page-container">
+                  <div class="page-cont-58">
+                     <div class="page-section-title">
+                        <span>Section 3: Engage Your Audience</span>
+                     </div>
+                     <h2>Improve your <br>creative strategy</h2>
+                     <p>Create high-quality photos and videos that match the look and feel of your business with apps from our creative partners, including Canva, Mojo and Videoshop. </p>
+                     <p>Inspire your community with interactive cultural elements, like GIFs, stickers (Share Black Stories and #BuyBlack) and Questions.</p>
+                  </div>
+                  <div class="page-cont-58d">
+                     <img src="img/black-Business-Owner.png" width="180px" height="auto" alt="">
+                     <img src="img/Black-Creators-on-the-Horizon.png" width="180px" height="auto" alt="">
+                     <img src="img/Make-Create-Build-Monetize-Invest-Black-History.png" width="180px" height="auto" alt="">
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-46">
+               <div class="page-container">
+                  <div class="page-cont-46">
+                     <div class="page-section-title">
+                        <span class="white-text">Section 4</span>
+                     </div>
+                     <h2>Scale your <br>efforts with <br>advertising</h2>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-47">
+               <div class="page-container">
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start  -->
+            <div class="page-bg-49">
+               <div class="page-container">
+                  <div class="page-cont-49b">
+                     <div class="page-section-title">
+                        <span>Section 4: Scale your efforts<br> with advertising</span>
+                     </div>
+                     <h2>Establish<br> business goals</h2>
+                     <p>Business goals can help you focus on what you want to accomplish with your marketing efforts and help you keep a record of your progress over time. Advertising can play an important  part in helping you achieve your business goals, like reaching more people who are interested in a product or service and prompting them to take action. Make sure to consider your business goal when creating your ad campaign so that you can select the ad objective that’s most relevant to it.</p>
+                     <span class="_8429">
+                        <a role="button" class="_42ft _83e- _946m" href="https://www.facebook.com/business/learn/lessons/what-are-smart-goals" target="_blank">
+                           <span class="_8429">
+                              <span class="_945q">
+                                 <div class="_946n">
+                                    <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                       <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                          <g stroke-width="1.6">
+                                             <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                             <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                          </g>
+                                       </g>
+                                    </svg>
+                                 </div>
+                              </span>
+                              Start defining your business goals
+                           </span>
+                        </a>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start  -->
+            <div class="page-bg-48">
+               <div class="page-cont-48">
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start  -->
+            <div class="page-bg-50">
+               <div class="page-cont-50">
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start  -->
+            <div class="page-bg-51">
+               <div class="page-container">
+                  <div class="page-section-title">
+                     <span>Section 4: Scale your efforts with advertising</span>
+                  </div>
+                  <h2>Define your ideal customer</h2>
+                  <p>When you advertise, focus on finding the customers that matter most to your business. Define a target audience, which is the group of people most likely to be interested in what a business is offering, before you start advertising to increase the effectiveness of ads and help you reach business goals.</p>
+                  <p>To define a target audience and the ads they see on Facebook, first you’ll need to understand their needs, characteristics and motivations.</p>
+                  <span class="_8429">
+                     <a role="button" class="_42ft _83e- _946m" href="https://www.facebook.com/business/learn/lessons/identify-target-audience#" target="_blank">
+                        <span class="_8429">
+                           <span class="_945q">
+                              <div class="_946n">
+                                 <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                    <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                       <g stroke-width="1.6">
+                                          <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                          <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                       </g>
+                                    </g>
+                                 </svg>
+                              </div>
+                           </span>
+                           Define your target audience
+                        </span>
+                     </a>
+                  </span>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start  -->
+            <div class="page-bg-53">
+               <div class="page-container">
+                  <div class="page-cont-53b">
+                     <div class="page-section-title">
+                        <span>Section 4: Scale your efforts<br> with advertising</span>
+                     </div>
+                     <h2>Promote your posts from Facebook <br>and Instagram</h2>
+                     <p>When you advertise on Facebook and Instagram, you can reach people beyond your existing customers and build new relationships. To do this, create ads from your Facebook Page or Instagram posts. </p>
+                     <span class="_8429">
+                        <a role="button" class="_42ft _83e- _946m" href="https://www.facebookblueprint.com/student/collection/238354/path/206354" target="_blank">
+                           <span class="_8429">
+                              <span class="_945q">
+                                 <div class="_946n">
+                                    <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                       <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                          <g stroke-width="1.6">
+                                             <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                             <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                          </g>
+                                       </g>
+                                    </svg>
+                                 </div>
+                              </span>
+                              Start advertising on Facebook and Instagram
+                           </span>
+                        </a>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start  -->
+            <div class="page-bg-52">
+               <div class="page-cont-52">
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start  -->
+            <div class="page-bg-54">
+               <div class="page-cont-54">
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start  -->
+            <div class="page-bg-55">
+               <div class="page-container">
+                  <div class="page-cont-55">
+                     <div class="page-section-title">
+                        <span>Section 4: Scale your efforts<br> with advertising</span>
+                     </div>
+                     <h2>Ads Manager overview</h2>
+                     <p>Ads Manager is the starting point for running more sophisticated ads across Facebook apps and services. It’s an all-in-one tool for creating ads, managing when and where they’ll run and tracking how well campaigns are performing. Businesses can use Ads Manager to manage ads and see an overview of their efforts across multiple platforms. When advertisers see which elements of their campaigns perform best, they can adjust their ads to maximize their budgets and time to achieve their business goals.</p>
+                     <span class="_8429">
+                        <a role="button" class="_42ft _83e- _946m" href="https://www.facebook.com/business/tools/ads-manager" target="_blank">
+                           <span class="_8429">
+                              <span class="_945q">
+                                 <div class="_946n">
+                                    <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                       <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                          <g stroke-width="1.6">
+                                             <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                             <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                          </g>
+                                       </g>
+                                    </svg>
+                                 </div>
+                              </span>
+                              Get started with Ads Manager
+                           </span>
+                        </a>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-62">
+               <div class="page-container">
+                  <div class="page-cont-62">
+                     <div class="page-section-title">
+                        <span>Section 4: Scale your efforts<br> with advertising</span>
+                     </div>
+                     <h2>Create a <br>content calendar</h2>
+                     <p>A content calendar can help you stay organized as you connect with customers online. Content calendars come in a variety of formats but typically include five key pieces of information.</p>
+                  </div>
+                  <div class="page-cont-62b">
+                     <div class="accordion js-accordion">
+                        <div class="accordion__item js-accordion-item active">
+                           <div class="accordion-header js-accordion-header">Date</div>
+                           <div class="accordion-body js-accordion-body">
+                              <div class="accordion-body__contents">
+                                 <p>When will the post be published?</p>
+                              </div>
+                           </div>
+                           <!-- end of accordion body -->
+                        </div>
+                        <!-- end of accordion item -->
+                        <div class="accordion__item js-accordion-item">
+                           <div class="accordion-header js-accordion-header">Theme</div>
+                           <div class="accordion-body js-accordion-body">
+                              <div class="accordion-body__contents">
+                                 <p>What is your post about?</p>
+                              </div>
+                           </div>
+                           <!-- end of accordion body -->
+                        </div>
+                        <!-- end of accordion item -->
+                        <div class="accordion__item js-accordion-item">
+                           <div class="accordion-header js-accordion-header">Visual description</div>
+                           <div class="accordion-body js-accordion-body">
+                              <div class="accordion-body__contents">
+                                 <p>Include a sentence or two about how you want your post image or video to look.</p>
+                              </div>
+                           </div>
+                           <!-- end of accordion body -->
+                        </div>
+                        <!-- end of accordion item -->
+                        <div class="accordion__item js-accordion-item">
+                           <div class="accordion-header js-accordion-header">Format</div>
+                           <div class="accordion-body js-accordion-body">
+                              <div class="accordion-body__contents">
+                                 <p>Posts can have pictures, video or a combination of the two. Decide which you will create for your post.</p>
+                              </div>
+                           </div>
+                           <!-- end of accordion body -->
+                        </div>
+                        <!-- end of accordion item -->
+                        <div class="accordion__item js-accordion-item">
+                           <div class="accordion-header js-accordion-header">Platform</div>
+                           <div class="accordion-body js-accordion-body">
+                              <div class="accordion-body__contents">
+                                 <p>Where do you intend to post the content (Facebook, Instagram, or elsewhere)?</p>
+                              </div>
+                           </div>
+                           <!-- end of accordion body -->
+                        </div>
+                        <!-- end of accordion item -->
+                     </div>
+                     <!-- end of accordion -->
+                     <span class="_8429">
+                        <a role="button" class="_42ft _83e- _946m" href="https://www.facebook.com/business/m/planning-your-post?locale=en_US" target="_blank">
+                           <span class="_8429">
+                              <span class="_945q">
+                                 <div class="_946n">
+                                    <svg viewBox="0 0 24 24" class="_93jf _93iw" xmlns="http://www.w3.org/2000/svg">
+                                       <g transform="translate(6 6)" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd">
+                                          <g stroke-width="1.6">
+                                             <polyline transform="translate(5.8968 5.9015) rotate(45) translate(-5.8968 -5.9015)" points="9.7937 9.803 9.7843 2 2 2.0093"></polyline>
+                                             <path transform="translate(5.9093 5.8982) rotate(45) translate(-5.9093 -5.8982)" d="m2.0283 9.7885l7.7621-7.7807"></path>
+                                          </g>
+                                       </g>
+                                    </svg>
+                                 </div>
+                              </span>
+                              Start planning your content
+                           </span>
+                        </a>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-63">
+               <div class="page-cont-63"> 
+                  <a href="docs/content-calendar-template.pdf" target="_blank">
+                  <img src="img/content-calendar-template.jpg" width="575px" height="auto" alt="">
+                  </a>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-60">
+               <div class="page-container">
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-61">
+               <div class="page-container">
+                  <div class="page-cont-61">
+                     <div class="page-section-title">
+                        <span class="white-text">Section 5</span>
+                     </div>
+                     <h2>Resources <br>to get<br> started</h2>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-64">
+               <div class="page-container">
+                  <div class="page-cont-64">
+                     <div class="page-section-title">
+                        <span>Section 5: Resources to get started</span>
+                     </div>
+                     <h2>Resources to get started</h2>
+                     <ul>
+                        <li>
+                           <a href="https://www.facebook.com/fbelevate" target="_blank">Facebook Elevate home</a>
+                        </li>
+                        <li>
+                           <a href="https://www.elevateandlearn.com/student/catalog" target="_blank">Welcome to Elevate Learning</a>
+                        </li>
+                        <li>
+                           <a href="https://www.facebook.com/fbelevate/facebook-elevate-scholarship-application" target="_blank">Facebook Elevate Scholarship</a>
+                        </li>
+                        <li>
+                           <a href="https://www.facebook.com/business/learn/certification" target="_blank">Facebook Certifications: Get the expertise to set yourself up for success</a>
+                        </li>
+                        <li>
+                           <a href="https://www.facebook.com/business/learn/courses" target="_blank">Blueprint courses</a>
+                        </li>
+                        <li>
+                           <a href="https://www.facebook.com/facebookelevate" target="_blank">Elevate Facebook Group</a>
+                        </li>
+                        <li>
+                           <a href="https://www.instagram.com/facebookelevate/" target="_blank">Instagram</a>
+                        </li>
+                        <li>
+                           <a href="https://www.facebook.com/facebookelevate" target="_blank">Facebook</a>
+                        </li>
+                        <li>
+                           <a href="https://www.facebook.com/groups/fbelevateus" target="_blank">Facebook US group</a>
+                        </li>
+                        <li>
+                           <a href="https://www.facebook.com/groups/fbelevateukie" target="_blank">Facebook UK / IE group</a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/showcase/facebookelevate" target="_blank">Linkedin</a>
+                        </li>
+                        <li>
+                           <a href="https://twitter.com/facebookelevate?lang=en" target="_blank">Twitter</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- page start -->
+            <div class="page-bg-65">
+               <div class="page-cont-65">
+                  <h5>Get a personalized marketing plan at no charge</h5>
+               </div>
+               <div class="page-cont-65b">
+                  <video controls width="500" id="video-05">
+                     <source src="video/BHM-Product-Tip-Video-4.mp4" type="video/mp4">
+                     <source src="video/BHM-Product-Tip-Video-4.ogg" type="video/ogg">
+                     <source src="video/BHM-Product-Tip-Video-4.webm" type="video/webm">
+                     Sorry, your browser doesn't support embedded videos.
+                  </video>
+               </div>
+            </div>
+            <!-- page end -->
+            <!-- Back Cover -->
+            <div class="back-cover">
+               <div class="cover-back-title">
+                  <a href="https://www.facebook.com/fbelevate" target="_blank"> <img src="img/Facebook_Elevate_Logos_Black_Horizontal.svg" alt="Facebook Elevate" width="350px" height="auto" class="extra-padding-both"></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--<script src="js/vendor/jquery-2.1.0.min.js"></script>-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="js/helper.js"></script>
+      <script src="./wow_book/wow_book.min.js"></script>
+      <script src="js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+      <script src="js/swipe-content.js"></script> <!-- A Vanilla JavaScript plugin to detect touch interactions -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
+      <script src="js/main.js"></script>
+      <script>
+         $(function(){
+         
+         	var bookOptions = {
+         		 height   : 980
+         		,width    : 1384
+         		// ,maxWidth : 800
+         		,maxHeight : 980,
+         		centeredWhenClosed : true,
+         		hardcovers: false,
+         		toolbar : "lastLeft, left, right, lastRight, toc, zoomin, zoomout, slideshow, fullscreen, currentPage",
+         		thumbnailsPosition : 'left',
+         		responsiveHandleWidth : 20,
+         		flipSound     : false,
+         		pageNumbers: false,
+         		firstPageNumber: 0,
+         		closeable: true,
+         		//numberedPages: [1,17],
+         		container: window,
+         		containerPadding: "10px"
+         		
+         		,toc: [                   
+         		[ "Introduction", 1 ],  
+         		[ "Bring your business online", 8 ],
+         			[ "Engage your audience", 20 ],
+         			[ "Scale your efforts with advertising", 34 ],
+         			[ "Resources to get started", 46 ],
+         		 ]
+         	};
+         
+         	$('#book').wowBook( bookOptions ); // create the book
+         	})
+                 
+         // Cover img
+         
+         $( ".cover-image" ).each(function() {
+         	  var attr = $(this).attr('data-image-src');
+         
+         	  if (typeof attr !== typeof undefined && attr !== false) {
+         		  $(this).css('background', 'url('+attr+') center center');
+         
+         	  }
+         
+         	});
+         	
+      </script>
+   </body>
 </html>
