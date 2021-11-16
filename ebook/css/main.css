@@ -281,17 +281,18 @@ p:last-child {
     grid-template-rows: repeat(2, 2fr) 1fr 2fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    height: 980px;
     }
     
-    .fc-div1 { grid-area: 1 / 1 / 3 / 5; }
-    .fc-div2 { grid-area: 3 / 1 / 4 / 3; }
-    .fc-div3 { grid-area: 3 / 3 / 4 / 4; }
-    .fc-div4 { grid-area: 3 / 4 / 4 / 5; }
-    .fc-div5 { grid-area: 4 / 1 / 5 / 3; }
-    .fc-div6 { grid-area: 4 / 3 / 5 / 5; } 
+    .fc-div1 { grid-area: 1 / 1 / 3 / 5; background: #121258; }
+    .fc-div2 { grid-area: 3 / 1 / 4 / 3;  background: #71e3e2;}
+    .fc-div3 { grid-area: 3 / 3 / 4 / 4;  background: #659eff;}
+    .fc-div4 { grid-area: 3 / 4 / 4 / 5;  background: #3665f3;}
+    .fc-div5 { grid-area: 4 / 1 / 5 / 3;  background: #1dcbca;}
+    .fc-div6 { grid-area: 4 / 3 / 5 / 5;  background: #382aef;} 
 
     .fc-div1, .fc-div2, .fc-div3, .fc-div4, .fc-div5, .fc-div6 {
-        border: 1px solid red;
+        padding: 4rem;
     }
 
 .page-container {
@@ -314,29 +315,6 @@ p:last-child {
 	top: 0;
 }
 
-.page-container-whatsapp {
-	padding: 40px 50px;
-	/* with border-box, padding is included in the  body's height/width */
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;
-	width: 500px;
-	position: absolute;
-	top: 0;
-}
-
-.page-container-messenger {
-	padding: 40px 50px;
-	/* with border-box, padding is included in the  body's height/width */
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;
-	width: 500px;
-	position: absolute;
-	left: 0;
-	top: 0;
-}
-
 .main-title {
 	position: relative;
 	top: 0px;
@@ -355,7 +333,6 @@ p:last-child {
 	left: 0px;
 }
 
-
 .front-cover {
 	width:692px;
     height:980px;
@@ -363,13 +340,7 @@ p:last-child {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	background-color: #e8d3b6;
-	padding: 50px;
-	display: flex;
-	flex-direction: column;
-	color: #ca3112;
 }
-
 .front-cover-title-01{
 	text-transform: uppercase;
 	color: #e29400;
