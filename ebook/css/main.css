@@ -284,12 +284,12 @@ p:last-child {
     height: 980px;
     }
     
-    .fc-div1 { grid-area: 1 / 1 / 3 / 5; background: #121258; }
-    .fc-div2 { grid-area: 3 / 1 / 4 / 3;  background: #71e3e2;}
-    .fc-div3 { grid-area: 3 / 3 / 4 / 4;  background: #659eff;}
-    .fc-div4 { grid-area: 3 / 4 / 4 / 5;  background: #3665f3;}
-    .fc-div5 { grid-area: 4 / 1 / 5 / 3;  background: #1dcbca;}
-    .fc-div6 { grid-area: 4 / 3 / 5 / 5;  background: #382aef;} 
+    .fc-div1 { grid-area: 1 / 1 / 3 / 5; background: #121258; color: #c2f2ef}
+    .fc-div2 { grid-area: 3 / 1 / 4 / 3;  background: #71e3e2;color: #121258}
+    .fc-div3 { grid-area: 3 / 3 / 4 / 4;  background: #659eff;color: #c2f2ef}
+    .fc-div4 { grid-area: 3 / 4 / 4 / 5;  background: #3665f3;color: #c2f2ef}
+    .fc-div5 { grid-area: 4 / 1 / 5 / 3;  background: #1dcbca;color: #121258}
+    .fc-div6 { grid-area: 4 / 3 / 5 / 5;  background: #382aef;color: #c2f2ef} 
 
     .fc-div1, .fc-div2, .fc-div3, .fc-div4, .fc-div5, .fc-div6 {
         padding: 4rem;
