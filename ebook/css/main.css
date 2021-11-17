@@ -16,7 +16,7 @@ input,
 select,
 textarea {
     /*color: #222;*/
-	color:#212525;
+	color:#111820;
 }
 
 body {
@@ -111,7 +111,6 @@ textarea {
 ul {padding-inline-start: 24px;
 	margin-top: .5em;
 	font-family: 'MarketSans-Regular-WebS', Helvetica, Arial, sans-serif;
-	color: #1C2B33;	
 	font-size: 1em;
 	line-height: 1.25em;}
 
@@ -240,8 +239,7 @@ h6 {
 
 p {
   	font-family: 'MarketSans-Regular-WebS', Helvetica, Arial, sans-serif;
-	color: #1C2B33;
-	margin-top: 10px;
+    margin-top: 10px;
 	font-size: 1em;
 	line-height: 1.75em;
 }
@@ -264,7 +262,7 @@ p:last-child {
     height: 980px;
     }
     
-    .fc-div1 { grid-area: 1 / 1 / 3 / 5; background: #121258; color: var(--ebay-t1)}
+    .fc-div1 { grid-area: 1 / 1 / 3 / 5; background: var(--ebay-b7); color: var(--ebay-t1)}
     .fc-div2 { grid-area: 3 / 1 / 4 / 3;  background: #71e3e2;color: #121258}
     .fc-div3 { grid-area: 3 / 3 / 4 / 4;  background: #659eff;color: #c2f2ef}
     .fc-div4 { grid-area: 3 / 4 / 4 / 5;  background: #3665f3;color: #c2f2ef}
