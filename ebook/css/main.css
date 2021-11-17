@@ -190,17 +190,16 @@ ul li:marker{ font-size:1em; }
 }
 
 .column {
-  padding: 10px;
-  margin: 5px 0;
-	display: flex;
-	justify-content: center;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
 }
 
 /* Font Sizes */
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'MarketSans-Bold-WebXL', Helvetica, Arial, sans-serif;
-	color: #465A69;
 	margin-top: 10px;
 	letter-spacing: 2px;
 	margin-bottom: 1rem;
