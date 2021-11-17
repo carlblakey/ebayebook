@@ -285,14 +285,17 @@ p:last-child {
 .fc-div5 { 
     grid-area: 4 / 1 / 5 / 3;  
     background: #1dcbca;
-    color: #121258
+    color: #121258;
+    background-image: url(../img/cover-001.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .fc-div6 { 
     grid-area: 4 / 3 / 5 / 5;  
     background: #382aef;
     color: #c2f2ef;
-    background-image: url(../img/cover-001.jpg);
+    background-image: url(../img/cover-002.jpg);
     background-size: cover;
     background-position: center;
 } 
@@ -302,7 +305,7 @@ p:last-child {
 }
 
 /* Grid layout back cover */
-
+ 
 .bc-parent {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -317,35 +320,29 @@ p:last-child {
     background: var(--ebay-b7); 
     color: var(--ebay-t1)
 }
-.bc-div2 { grid-area: 3 / 1 / 4 / 3;  
+.bc-div2 { grid-area: 3 / 1 / 4 / 2;  
     background: #71e3e2;
     color: #121258}
 
 .bc-div3 { 
-    grid-area: 3 / 3 / 4 / 4;  
+    grid-area: 3 / 2 / 4 / 3;  
     background: #659eff;
     color: #c2f2ef
 }
 
 .bc-div4 { 
-    grid-area: 3 / 4 / 4 / 5;  
+    grid-area: 4 / 1 / 5 / 3;  
     background: #3665f3;
     color: #c2f2ef
 }
 
 .bc-div5 { 
-    grid-area: 4 / 1 / 5 / 3;  
+    grid-area: 3 / 3 / 5 / 5;  
     background: #1dcbca;
     color: #121258
 }
 
-.bc-div6 { 
-    grid-area: 4 / 3 / 5 / 5;  
-    background: #382aef;
-    color: #c2f2ef;
-} 
-
-.bc-div1, .bc-div2, .bc-div3, .bc-div4, .bc-div5, .bc-div6 {
+.bc-div1, .bc-div2, .bc-div3, .bc-div4, .bc-div5 {
     padding: 4rem;
 }
 
