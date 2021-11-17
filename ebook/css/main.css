@@ -65,9 +65,52 @@ textarea {
 }
 
 
+/* Ebay Webfonts Paragraph */
+
+@font-face {
+    font-family: 'MarketSans-Regular-WebS';
+    src:  url('webfont/MarketSans-Regular-WebS.woff2') format('woff2'),
+          url('webfont/MarketSans-Regular-WebS.woff') format('woff'),
+          url('webfont/MarketSans-Regular-WebS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'MarketSans-Bold-WebS';
+    src:url('webfont/MarketSans-Bold-WebS.woff2') format('woff2'),
+          url('webfont/MarketSans-Bold-WebS.woff') format('woff'),
+          url('webfont/MarketSans-Bold-WebS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Ebay Webfonts Titles */
+  
+  @font-face {
+    font-family: 'MarketSans-Regular-WebXL';
+      src:url('webfont/MarketSans-Regular-WebXL.woff2') format('woff2'),
+          url('webfont/MarketSans-Regular-WebXL.woff') format('woff'),
+          url('webfont/MarketSans-Regular-WebXL.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+  }
+  
+  @font-face {
+      font-family: 'MarketSans-Bold-WebXL';
+      src:url('webfont/MarketSans-Bold-WebXL.woff2') format('woff2'),
+          url('webfont/MarketSans-Bold-WebXL.woff') format('woff'),
+          url('webfont/MarketSans-Bold-WebXL.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal; 
+    }
+
+
+/* Ordered List Default Styles */
+
 ul {padding-inline-start: 24px;
 	margin-top: .5em;
-	font-family: 'Optimistic-Text-Light', Helvetica, Arial, sans-serif;
+	font-family: 'MarketSans-Regular-WebS', Helvetica, Arial, sans-serif;
 	color: #1C2B33;	
 	font-size: 1em;
 	line-height: 1.25em;}
@@ -77,46 +120,6 @@ ul li:marker{ font-size:1em; }
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-/* Ebay Webfonts Paragraph */
-
-@font-face {
-  font-family: 'MarketSans-Regular-WebS';
-  src:  url('webfont/MarketSans-Regular-WebS.woff2') format('woff2'),
-        url('webfont/MarketSans-Regular-WebS.woff') format('woff'),
-        url('webfont/MarketSans-Regular-WebS.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'MarketSans-Bold-WebS';
-  src:url('webfont/MarketSans-Bold-WebS.woff2') format('woff2'),
-        url('webfont/MarketSans-Bold-WebS.woff') format('woff'),
-        url('webfont/MarketSans-Bold-WebS.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Ebay Webfonts Titles */
-
-@font-face {
-  font-family: 'MarketSans-Regular-WebXL';
-    src:url('webfont/MarketSans-Regular-WebXL.woff2') format('woff2'),
-        url('webfont/MarketSans-Regular-WebXL.woff') format('woff'),
-        url('webfont/MarketSans-Regular-WebXL.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal; 
-}
-
-@font-face {
-    font-family: 'MarketSans-Bold-WebXL';
-    src:url('webfont/MarketSans-Bold-WebXL.woff2') format('woff2'),
-        url('webfont/MarketSans-Bold-WebXL.woff') format('woff'),
-        url('webfont/MarketSans-Bold-WebXL.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal; 
-  }
 
 :root {
     --e: cubic-bezier(0.19, 1, 0.22, 1);
@@ -195,15 +198,8 @@ ul li:marker{ font-size:1em; }
 
 /* Font Sizes */
 
-h1 {
-  font-family: 'Optimistic-Title-Light', Helvetica, Arial, sans-serif;
-	color: #465A69;
-	margin-top: 10px;
-		margin-bottom: 1rem;
-}
-
-h2, h3, h4, h5, h6 {
-  font-family: 'Optimistic-Title-Light', Helvetica, Arial, sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'MarketSans-Bold-WebXL', Helvetica, Arial, sans-serif;
 	color: #465A69;
 	margin-top: 10px;
 	letter-spacing: 2px;
@@ -213,20 +209,17 @@ h2, h3, h4, h5, h6 {
 h1 {
   	font-size: 3em;
 	line-height: 1.25em;
-	
-}
+	}
 
 h2 {
   	font-size: 2.25em;
 	line-height: 1.25em;
-	
-}
+	}
 
 h3 {
   	font-size: 2em;
 	line-height: 1.25em;
-	
-}
+	}
 
 h4 {
   	font-size: 1.75em;
@@ -247,7 +240,7 @@ h6 {
 }
 
 p {
-  	font-family: 'Optimistic-Text-Light', Helvetica, Arial, sans-serif;
+  	font-family: 'MarketSans-Regular-WebS', Helvetica, Arial, sans-serif;
 	color: #1C2B33;
 	margin-top: 10px;
 	font-size: 1em;
@@ -272,7 +265,7 @@ p:last-child {
     height: 980px;
     }
     
-    .fc-div1 { grid-area: 1 / 1 / 3 / 5; background: #121258; color: #c2f2ef}
+    .fc-div1 { grid-area: 1 / 1 / 3 / 5; background: #121258; color: var(--ebay-t1)}
     .fc-div2 { grid-area: 3 / 1 / 4 / 3;  background: #71e3e2;color: #121258}
     .fc-div3 { grid-area: 3 / 3 / 4 / 4;  background: #659eff;color: #c2f2ef}
     .fc-div4 { grid-area: 3 / 4 / 4 / 5;  background: #3665f3;color: #c2f2ef}
@@ -503,7 +496,6 @@ a._42ft._83e-._946m:hover {
     transition: all .3s ease;
 }
 
-
 /* Facebook elevate styles #2 */
 .fb_8429, .fb_842a {
     align-items: center;
@@ -543,9 +535,6 @@ a.fb_42ft.fb_83e-.fb_946m:hover {
     transform: translateX(2px);
     transition: all .3s ease;
 }
-
-
-
 
 /* Individual Pages */
 
@@ -645,7 +634,6 @@ a.fb_42ft.fb_83e-.fb_946m:hover {
 
 }
 
-
 .page-cont-05 h2 { 
 	color: #1877f2;
 	margin-top: 1em;
@@ -735,7 +723,6 @@ a.fb_42ft.fb_83e-.fb_946m:hover {
 	
 }
 
-
 /* Double Spread */
 
 .page-bg-09 {
@@ -771,7 +758,6 @@ a.fb_42ft.fb_83e-.fb_946m:hover {
 	background-size: cover;
 }
 
-
 /* Spreads 11-12 */
 
 .page-bg-11 {
@@ -779,13 +765,11 @@ a.fb_42ft.fb_83e-.fb_946m:hover {
 	background-size: cover;
 }
 
-
 .page-cont-11 {
 	position: absolute;
 	top: 15%;
 	left:20%;
 }
-
 
 .page-cont-11 h2 { 
 	font-size: 3.5em;
@@ -827,7 +811,6 @@ a.fb_42ft.fb_83e-.fb_946m:hover {
 
 }
 
-
 .page-cont-13b {
        position: absolute;
     bottom: 1em;
@@ -839,7 +822,6 @@ a.fb_42ft.fb_83e-.fb_946m:hover {
 .lines-loops-01 {
 	fill: #839599;
 }
-
 
 .page-bg-14 {
 	background-image: url("../img/page-bg-14.jpg");
@@ -1370,8 +1352,6 @@ p.page-cont-16-quote-name::before {
 
 }
 
-
-
 .page-bg-22 {
 	background-image: url("../img/page-bg-22.jpg");
 	background-size: cover;
@@ -1419,7 +1399,6 @@ p.page-cont-16-quote-name::before {
 .page-cont-23 a { 
 	color: #dfb95c;
 	font-family: 'Optimistic-Text-light', Helvetica, Arial, sans-serif;
-
 }
 
 .page-cont-23b {
@@ -1492,8 +1471,7 @@ p.page-cont-16-quote-name::before {
 	color: #f0d1b2;
 	line-height: 1.25em;
 	font-family: 'Optimistic-Title-Medium', Helvetica, Arial, sans-serif;
-	
-}
+	}
 
 .page-cont-24 h2 { 
 	color: #48194E;
@@ -2358,11 +2336,7 @@ background:#ffffff;
     justify-content: center;
 }
 
-
-
 /* Section Break 5 */
-
-
 .page-bg-60 {
 	background-image: url("../img/page-bg-73.jpg");
 	background-size: cover;
@@ -2390,7 +2364,6 @@ background:#ffffff;
 .page-cont-61 > .page-section-title > span {
 	padding-left: 2px;
 }
-
 
 /* Double Spread #8 */
 
