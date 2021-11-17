@@ -304,9 +304,6 @@ p:last-child {
     grid-area: 4 / 3 / 5 / 5;  
     background: #382aef;
     color: #c2f2ef;
-    background-image: url(../img/cover-002.jpg);
-    background-size: cover;
-    background-position: center top;
     display: grid;
     place-items: center;
 } 
@@ -359,6 +356,9 @@ p:last-child {
     color: #121258;
     display: grid;
     place-items: center;
+    background-image: url(../img/cover-002.jpg);
+    background-size: cover;
+    background-position: center top;
 }
 
 .bc-div1, .bc-div2, .bc-div3, .bc-div4, .bc-div5 {
