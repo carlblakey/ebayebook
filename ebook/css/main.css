@@ -268,18 +268,25 @@ p:last-child {
 }
 .fc-div2 { grid-area: 3 / 1 / 4 / 3;  
     background: var(--ebay-t2);
-    color: var(--ebay-b7)}
+    color: var(--ebay-b7);
+    display: grid;
+    place-items: center;
+}
 
 .fc-div3 { 
     grid-area: 3 / 3 / 4 / 4;  
     background: #659eff;
-    color: #c2f2ef
+    color: #c2f2ef;
+    display: grid;
+    place-items: center;
 }
 
 .fc-div4 { 
     grid-area: 3 / 4 / 4 / 5;  
     background: #3665f3;
-    color: #c2f2ef
+    color: #c2f2ef;
+    display: grid;
+    place-items: center;
 }
 
 .fc-div5 { 
@@ -289,6 +296,8 @@ p:last-child {
     background-image: url(../img/cover-001.jpg);
     background-size: cover;
     background-position: center;
+    display: grid;
+    place-items: center;
 }
 
 .fc-div6 { 
@@ -297,7 +306,9 @@ p:last-child {
     color: #c2f2ef;
     background-image: url(../img/cover-002.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center top;
+    display: grid;
+    place-items: center;
 } 
 
 .fc-div1, .fc-div2, .fc-div3, .fc-div4, .fc-div5, .fc-div6 {
@@ -322,24 +333,32 @@ p:last-child {
 }
 .bc-div2 { grid-area: 3 / 1 / 4 / 2;  
     background: #71e3e2;
-    color: #121258}
+    color: #121258;
+    display: grid;
+    place-items: center;}
 
 .bc-div3 { 
     grid-area: 3 / 2 / 4 / 3;  
     background: #659eff;
-    color: #c2f2ef
+    color: #c2f2ef;
+    display: grid;
+    place-items: center;
 }
 
 .bc-div4 { 
     grid-area: 4 / 1 / 5 / 3;  
     background: #3665f3;
-    color: #c2f2ef
+    color: #c2f2ef;
+    display: grid;
+    place-items: center;
 }
 
 .bc-div5 { 
     grid-area: 3 / 3 / 5 / 5;  
     background: #1dcbca;
-    color: #121258
+    color: #121258;
+    display: grid;
+    place-items: center;
 }
 
 .bc-div1, .bc-div2, .bc-div3, .bc-div4, .bc-div5 {
