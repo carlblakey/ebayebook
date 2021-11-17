@@ -164,7 +164,6 @@ ul li:marker{ font-size:1em; }
     --max-width-xxl: 120rem;
 }
 
-
 /* Grid Layout */
 
 .column {
@@ -262,16 +261,93 @@ p:last-child {
     height: 980px;
     }
     
-    .fc-div1 { grid-area: 1 / 1 / 3 / 5; background: var(--ebay-b7); color: var(--ebay-t1)}
-    .fc-div2 { grid-area: 3 / 1 / 4 / 3;  background: #71e3e2;color: #121258}
-    .fc-div3 { grid-area: 3 / 3 / 4 / 4;  background: #659eff;color: #c2f2ef}
-    .fc-div4 { grid-area: 3 / 4 / 4 / 5;  background: #3665f3;color: #c2f2ef}
-    .fc-div5 { grid-area: 4 / 1 / 5 / 3;  background: #1dcbca;color: #121258}
-    .fc-div6 { grid-area: 4 / 3 / 5 / 5;  background: #382aef;color: #c2f2ef} 
+.fc-div1 { 
+    grid-area: 1 / 1 / 3 / 5; 
+    background: var(--ebay-b7); 
+    color: var(--ebay-t1)
+}
+.fc-div2 { grid-area: 3 / 1 / 4 / 3;  
+    background: var(--ebay-t2);
+    color: var(--ebay-b7)}
 
-    .fc-div1, .fc-div2, .fc-div3, .fc-div4, .fc-div5, .fc-div6 {
-        padding: 4rem;
+.fc-div3 { 
+    grid-area: 3 / 3 / 4 / 4;  
+    background: #659eff;
+    color: #c2f2ef
+}
+
+.fc-div4 { 
+    grid-area: 3 / 4 / 4 / 5;  
+    background: #3665f3;
+    color: #c2f2ef
+}
+
+.fc-div5 { 
+    grid-area: 4 / 1 / 5 / 3;  
+    background: #1dcbca;
+    color: #121258
+}
+
+.fc-div6 { 
+    grid-area: 4 / 3 / 5 / 5;  
+    background: #382aef;
+    color: #c2f2ef;
+    background-image: url(../img/cover-001.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+
+.fc-div1, .fc-div2, .fc-div3, .fc-div4, .fc-div5, .fc-div6 {
+    padding: 4rem;
+}
+
+/* Grid layout back cover */
+
+.bc-parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 2fr) 1fr 2fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 980px;
     }
+    
+.bc-div1 { 
+    grid-area: 1 / 1 / 3 / 5; 
+    background: var(--ebay-b7); 
+    color: var(--ebay-t1)
+}
+.bc-div2 { grid-area: 3 / 1 / 4 / 3;  
+    background: #71e3e2;
+    color: #121258}
+
+.bc-div3 { 
+    grid-area: 3 / 3 / 4 / 4;  
+    background: #659eff;
+    color: #c2f2ef
+}
+
+.bc-div4 { 
+    grid-area: 3 / 4 / 4 / 5;  
+    background: #3665f3;
+    color: #c2f2ef
+}
+
+.bc-div5 { 
+    grid-area: 4 / 1 / 5 / 3;  
+    background: #1dcbca;
+    color: #121258
+}
+
+.bc-div6 { 
+    grid-area: 4 / 3 / 5 / 5;  
+    background: #382aef;
+    color: #c2f2ef;
+} 
+
+.bc-div1, .bc-div2, .bc-div3, .bc-div4, .bc-div5, .bc-div6 {
+    padding: 4rem;
+}
 
 .page-container {
 	padding: 50px 60px;
