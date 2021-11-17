@@ -78,57 +78,45 @@ ul li:marker{ font-size:1em; }
    Author's custom styles
    ========================================================================== */
 
-/* Facebook Webfonts Paragraph */
+/* Ebay Webfonts Paragraph */
 
 @font-face {
-  font-family: 'Optimistic-Text-Light';
-  src: url('webfont/Optimistic_Text_W_Lt.eot?#iefix') format('embedded-opentype'), 
-	     url('webfont/Optimistic_Text_W_Lt.woff') format('woff'), url('webfont/Optimistic_Text_Lt.ttf')  format('truetype');
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Optimistic-Text-Medium';
-  src: url('webfont/Optimistic_Text_W_Rg.eot?#iefix') format('embedded-opentype'), 
-	     url('webfont/Optimistic_Text_W_Rg.woff') format('woff'), url('webfont/Optimistic_Text_Rg.ttf')  format('truetype');
+  font-family: 'MarketSans-Regular-WebS';
+  src:  url('webfont/MarketSans-Regular-WebS.woff2') format('woff2'),
+        url('webfont/MarketSans-Regular-WebS.woff') format('woff'),
+        url('webfont/MarketSans-Regular-WebS.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Optimistic-Text-Bold';
-  src: url('webfont/Optimistic_Text_W_Bd.eot?#iefix') format('embedded-opentype'), 
-	     url('webfont/Optimistic_Text_W_Bd.woff') format('woff'), url('webfont/Optimistic_Text_Bd.ttf')  format('truetype');
-  font-weight: bold;
+  font-family: 'MarketSans-Bold-WebS';
+  src:url('webfont/MarketSans-Bold-WebS.woff2') format('woff2'),
+        url('webfont/MarketSans-Bold-WebS.woff') format('woff'),
+        url('webfont/MarketSans-Bold-WebS.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
 
-/* Facebook Webfonts Titles */
+/* Ebay Webfonts Titles */
 
 @font-face {
-  font-family: 'Optimistic-Title-Light';
-  src: url('webfont/Optimistic_Display_W_Lt.eot?#iefix') format('embedded-opentype'),  
-	     url('webfont/Optimistic_Display_W_Lt.woff') format('woff'), url('webfont/Optimistic_Display_Lt.ttf')  format('truetype');
+  font-family: 'MarketSans-Regular-WebXL';
+    src:url('webfont/MarketSans-Regular-WebXL.woff2') format('woff2'),
+        url('webfont/MarketSans-Regular-WebXL.woff') format('woff'),
+        url('webfont/MarketSans-Regular-WebXL.ttf') format('truetype');
   font-weight: normal;
   font-style: normal; 
 }
 
 @font-face {
-  font-family: 'Optimistic-Title-Medium';
-  src: url('webfont/Optimistic_Display_W_Md.eot?#iefix') format('embedded-opentype'), 
-	     url('webfont/Optimistic_Display_W_Md.woff') format('woff'), url('webfont/Optimistic_Display_Md.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal; 
-}
-
-@font-face {
-  font-family: 'Optimistic-Title-Bold';
-  src: url('webfont/Optimistic_Display_W_Bd.eot?#iefix') format('embedded-opentype'), 
-	     url('webfont/Optimistic_Display_W_Bd.woff') format('woff'), url('webfont/Optimistic_Display_Bd.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+    font-family: 'MarketSans-Bold-WebXL';
+    src:url('webfont/MarketSans-Bold-WebXL.woff2') format('woff2'),
+        url('webfont/MarketSans-Bold-WebXL.woff') format('woff'),
+        url('webfont/MarketSans-Bold-WebXL.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+  }
 
 :root {
     --e: cubic-bezier(0.19, 1, 0.22, 1);
