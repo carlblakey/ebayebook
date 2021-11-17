@@ -131,21 +131,21 @@ ul li:marker{ font-size:1em; }
 }
 
 :root {
-    --cd-color-1: hsl(0, 0%, 22%);
-    --cd-color-1-h: 0;
-    --cd-color-1-s: 0%;
-    --cd-color-1-l: 22%;
-    --cd-color-2:  hsl(214, 89%, 52%);
-    --cd-color-2-h: 74;
-    --cd-color-2-s: 93%;
-    --cd-color-2-l: 32%;
-    --cd-color-3: hsl(0, 0%, 97%);
-    --cd-color-3-h: 0;
-    --cd-color-3-s: 0%;
-    --cd-color-3-l: 97%;
-	--d: 700ms;
-  	--e: cubic-bezier(0.19, 1, 0.22, 1);
-	--fb-blue-color: hsl(214, 89%, 52%);
+    --e: cubic-bezier(0.19, 1, 0.22, 1);
+	--ebay-b1: hsl(204, 87%, 88%);
+    --ebay-b2: hsl(210, 100%, 79%);
+    --ebay-b3: hsl(218, 100%, 70%);
+    --ebay-b4: hsl(225, 89%, 58%);
+    --ebay-b5: hsl(244, 86%, 55%);
+    --ebay-b6: hsl(251, 85%, 37%);
+    --ebay-b7: hsl(240, 66%, 21%);
+    --ebay-t1: hsl(176, 65%, 85%);
+    --ebay-t2: hsl(179, 67%, 67%);
+    --ebay-t3: hsl(180, 75%, 45%);
+    --ebay-t4: hsl(184, 98%, 34%);
+    --ebay-t5: hsl(193, 99%, 28%);
+    --ebay-t6: hsl(202, 77%, 24%);
+    --ebay-t7: hsl(199, 100%, 14%);
 }
 
 :root {
