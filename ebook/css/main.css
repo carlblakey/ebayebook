@@ -3453,6 +3453,7 @@ animation-duration: .75s;}
     display: flex;
     justify-content: space-between;
 	align-items: center;
+    color: var(--ebay-b1);
 }
 
 .tabs-link.button:hover {
