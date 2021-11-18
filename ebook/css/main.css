@@ -379,7 +379,7 @@ p:last-child {
         background: var(--ebay-t7);
         color: #fff;
     }
-    .dtitle-001-iv2 { 
+    .dtitle-001-div2 { 
         grid-area: 1 / 2 / 3 / 3; 
         background: var(--ebay-t6);
     }
@@ -392,8 +392,12 @@ p:last-child {
         background: var(--ebay-t4);
     } 
 
+    .title-001-div1, .title-001-div2, .title-001-div3, .title-001-div4, .title-001-div5 {
+        padding: 1rem;
+    }
+
 .page-container {
-	padding: 50px 60px;
+	padding: 50px 40px;
 	/* with border-box, padding is included in the  body's height/width */
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
