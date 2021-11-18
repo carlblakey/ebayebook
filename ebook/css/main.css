@@ -3462,7 +3462,9 @@ animation-duration: .75s;}
     text-decoration: none;
     color: var(--ebay-t1);
 }
-
+.button {
+    min-height: 4rem;
+}
 .button::after {
     font-family: 'ebi-icons';
     -webkit-font-smoothing: antialiased;
