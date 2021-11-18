@@ -3452,7 +3452,6 @@ ul.tabs-02 li:hover{
 animation-duration: .75s;}
 
 .tabs-link {
-	width: 100%;
     display: flex;
     justify-content: space-between;
 	align-items: center;
@@ -3463,7 +3462,7 @@ animation-duration: .75s;}
     color: var(--ebay-t1);
 }
 .button {
-    min-height: 4rem;
+    padding: 4rem;
 }
 .button::after {
     font-family: 'ebi-icons';
