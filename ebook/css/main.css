@@ -585,16 +585,13 @@ p:last-child {
     padding: 2rem;
     flex-grow: 1;
 }
-.page-title-01 {
-	position: relative;
-	left:5%;
+
+.page-cont-02 {
+	background: var(--ebay-t2);
+    padding: 2rem;
+    flex-grow: 1;
 }
-.page-title-01 > h3 {
-	text-transform: uppercase;
-	font-size: 1.5rem;
-	line-height: 1.5rem;
-	letter-spacing: 0.175em;
-}
+
 
 .page-cont-02 {
 	 position: relative;
