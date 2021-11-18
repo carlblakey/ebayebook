@@ -105,8 +105,6 @@ textarea {
     resize: vertical;
 }
 
-
-
 /* Ordered List Default Styles */
 
 ul {padding-inline-start: 24px;
@@ -250,6 +248,10 @@ p:last-child {
 
 
 /* Page Structure */
+
+.wowbook-page-content {
+    padding: 3rem;
+}
 
 /* Grid layout front cover */
 
