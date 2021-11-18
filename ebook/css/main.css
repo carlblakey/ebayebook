@@ -433,11 +433,14 @@ p:last-child {
     }
 
 .page-container {
-	padding: 50px 40px;
+	padding: 40px 40px;
 	/* with border-box, padding is included in the  body's height/width */
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .main-title {
@@ -557,7 +560,6 @@ p:last-child {
 	font-weight: 400;
 	text-shadow: 2px 2px 4px rgba(31, 31, 31, 0.5);
 	line-height: 0.9em;
-	
 }
 
 .page-section-title {
@@ -578,10 +580,8 @@ p:last-child {
 /* Individual Pages */
 
 .page-cont-01 {
-	position: relative;
-	top: 2rem;
 	background: var(--ebay-b1);
-    padding: 2rem;
+    flex-grow: 1;
 }
 .page-title-01 {
 	position: relative;
