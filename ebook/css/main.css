@@ -3380,7 +3380,6 @@ a.control_next:before {
 .tabs-02 {display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Optimistic-Text-light', Helvetica, Arial, sans-serif;
     flex-direction: column;
 	   -webkit-transition: all .3s ease;
     transition: all .3s ease;
