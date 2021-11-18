@@ -379,6 +379,10 @@ p:last-child {
         background: var(--ebay-t7);
         color: #fff;
     }
+    .title-001-div1 h1 {
+        font-size: 1.75rem;
+    }
+
     .title-001-div2 { 
         grid-area: 1 / 2 / 3 / 3; 
         background: var(--ebay-t6);
