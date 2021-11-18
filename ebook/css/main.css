@@ -234,9 +234,8 @@ h6 {
 
 p {
   	font-family: 'MarketSans-Regular-WebS', Helvetica, Arial, sans-serif;
-    margin-top: 10px;
-	font-size: 1em;
-	line-height: 1.75em;
+	font-size: 1rem;
+	line-height: 1.75rem;
 }
 
 p:last-child {
@@ -522,7 +521,6 @@ p:last-child {
 	padding: 10px 0px 40px 0; 
 	color: #4e473d;
 	text-align: left;
-	
 } 
 
 .cover-title img {
@@ -561,29 +559,6 @@ p:last-child {
 	
 }
 
-.cover-img-bg-01 {
-	background-color: #8d7b6d;
-	color:#e8dfda;
-	padding: 1.75rem;
-	font-size: 1.2rem;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-}
-
-
-.cover-img-bg-02 {
-	background-color: #8d7b6d;
-	color:#e8dfda;
-	padding: 1.75rem;
-	font-size: 2.25rem;
-	letter-spacing: 2px;
-	font-weight: 200;
-}
-
-.cover-img-bg-02 span {
-	color:#e7c496;
-}
-
 .page-section-title {
 	margin-bottom: 2rem;
 }
@@ -599,52 +574,7 @@ p:last-child {
 	color: #ffffff;
 }
 
-
-/* Facebook elevate styles #1 */
-._8429, ._842a {
-    align-items: center;
-    display: flex;
-	font-family: 'Optimistic-Text-Medium', Helvetica, Arial, sans-serif;
-}
-
-._945q {
-    align-items: center;
-    background-color: transparent;
-    border: 2px solid #677B8C;
-    border-radius: 36px;
-    display: flex;
-    height: 1.5em;
-    justify-content: center;
-    margin-right: 10px;
-    transition: all .3s ease;
-    width: 1.5em;
-	stroke: #000;
-}
-
-a._42ft._83e-._946m:hover {
-    cursor: pointer;
-}
-
-._93jf._93iw, ._93jf._93ix, ._93jf._93iv, ._93jf._93iy {
-    stroke-width: 1.6;
-}
-
-._946n {
-    height: 20px;
-    transition: all .3s ease;
-    width: 20px;
-}
-
-._946m:hover ._946n {
-    transform: translateX(2px);
-    transition: all .3s ease;
-}
-
 /* Individual Pages */
-
-.page-bg-01 {
-	background-color: #b1481b;
-}
 
 .page-cont-01 {
 	position: relative;
@@ -652,8 +582,7 @@ a._42ft._83e-._946m:hover {
 	left:5%;
 	width: 82%;
 	font-size: 2.3em;
-	color: #e5b57e;
-	line-height: 1.5em;
+    line-height: 1.5em;
 	font-family: 'Optimistic-Text-light', Helvetica, Arial, sans-serif;
 }
 .page-title-01 {
@@ -662,7 +591,6 @@ a._42ft._83e-._946m:hover {
 }
 .page-title-01 > h3 {
 	text-transform: uppercase;
-	color: #f7e3a1;
 	font-size: 1.5rem;
 	line-height: 1.5rem;
 	letter-spacing: 0.175em;
