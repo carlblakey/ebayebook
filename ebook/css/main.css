@@ -640,46 +640,6 @@ a._42ft._83e-._946m:hover {
     transition: all .3s ease;
 }
 
-/* Facebook elevate styles #2 */
-.fb_8429, .fb_842a {
-    align-items: center;
-    display: flex;
-	font-family: 'Optimistic-Text-Medium', Helvetica, Arial, sans-serif;
-}
-
-.fb_945q {
-    align-items: center;
-    background-color: transparent;
-    border: 2px solid #677B8C;
-    border-radius: 36px;
-    display: flex;
-    height: 2em;
-    justify-content: center;
-    margin-right: 10px;
-    transition: all .3s ease;
-    width: 2em;
-	stroke: #000;
-}
-
-a.fb_42ft.fb_83e-.fb_946m:hover {
-    cursor: pointer;
-}
-
-.fb_93jf.fb_93iw, .fb_93jf.fb_93ix, .fb_93jf.fb_93iv, .fb_93jf.fb_93iy {
-    stroke-width: 1;
-}
-
-.fb_946n {
-    height: 30px;
-    transition: all .3s ease;
-    width: 30px;
-}
-
-.fb_946m:hover .fb_946n {
-    transform: translateX(2px);
-    transition: all .3s ease;
-}
-
 /* Individual Pages */
 
 .page-bg-01 {
