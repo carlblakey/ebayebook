@@ -578,12 +578,8 @@ p:last-child {
 
 .page-cont-01 {
 	position: relative;
-	top: 3em;
-	left:5%;
-	width: 82%;
-	font-size: 2.3em;
-    line-height: 1.5em;
-	font-family: 'Optimistic-Text-light', Helvetica, Arial, sans-serif;
+	top: 2rem;
+	width: 100%;
 }
 .page-title-01 {
 	position: relative;
