@@ -582,6 +582,7 @@ p:last-child {
 
 .page-cont-01 {
 	background: var(--ebay-b1);
+    padding: 2rem;
     flex-grow: 1;
 }
 .page-title-01 {
