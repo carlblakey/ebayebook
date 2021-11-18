@@ -598,8 +598,9 @@ p:last-child {
     flex-grow: 1;
 }
 .page-cont-04 {
-	position: absolute;
-	top: 25%;
+	background: var(--ebay-b1);
+    padding: 2rem;
+    flex-grow: 1;
 }
 
 .section-2-align {
