@@ -3411,16 +3411,15 @@ ul.tabs-02{
 
 
 ul.tabs-02 li{
-   background: none;
-	font-size: 1.25em;
-    color: #222;
+    font-size: 1.5rem;
     display: inline-block;
-    padding: 35px;
+    padding: 2.5rem;
     cursor: pointer;
     margin: .5em 0;
     -webkit-transition: all .3s ease;
-    transition: all .3s ease;
+    transition: all .5s ease;
     border: 1px solid lightgray;
+    background: var(--ebay-t1);
     }
 
     ul.tabs-02 li.current{
@@ -3440,14 +3439,9 @@ ul.tabs-02 li:hover{
 
 .tab-content{
      display: none;
-     background: #F5F6F6;
-     padding: 15px;
-	width: 480px !important;
     opacity: 0;
 	visibility: hidden;
     position: absolute;
-    height: 750px !important;
-    left: 55px;
 	 -webkit-transition: opacity 0.3s;
     -moz-transition: opacity 0.3s;
     -o-transition: opacity 0.3s;
@@ -3458,13 +3452,9 @@ ul.tabs-02 li:hover{
 .tab-content.current{
     display: flex;
     flex-direction: column;
-	padding: 3em;
-	 width: 480px !important;
+	padding: 2em;
     opacity: 1;
 	visibility: visible;
-    position: absolute;
-    height: 750px !important;
-    left: 55px;
 	 -webkit-transition: opacity 0.3s;
     -moz-transition: opacity 0.3s;
     -o-transition: opacity 0.3s;
