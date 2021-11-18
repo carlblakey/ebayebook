@@ -234,8 +234,9 @@ h6 {
 
 p {
   	font-family: 'MarketSans-Regular-WebS', Helvetica, Arial, sans-serif;
-	font-size: 1rem;
-	line-height: 1.75rem;
+      margin: 0 0 1rem 0;
+      font-size: 1rem;
+      line-height: 1.5rem;
 }
 
 p:last-child {
