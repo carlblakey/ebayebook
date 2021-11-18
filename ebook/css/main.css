@@ -400,6 +400,41 @@ p:last-child {
         padding: 1rem;
     }
 
+
+.parent-title-002 {
+    display: grid;
+    grid-template-columns: 4fr repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .title-002-div1 { 
+        grid-area: 1 / 1 / 3 / 2; 
+        background: var(--ebay-b7);
+        color: #fff;
+    }
+    .title-002-div1 h1 {
+        font-size: 1.75rem;
+    }
+
+    .title-002-div2 { 
+        grid-area: 1 / 2 / 3 / 3; 
+        background: var(--ebay-b6);
+    }
+    .title-002-div3 { 
+        grid-area: 1 / 3 / 2 / 4; 
+        background: var(--ebay-b5);
+    }
+    .title-002-div4 { 
+        grid-area: 2 / 3 / 3 / 4; 
+        background: var(--ebay-b4);
+    } 
+
+    .title-002-div1, .title-002-div2, .title-002-div3, .title-002-div4, .title-002-div5 {
+        padding: 1rem;
+    }
+
 .page-container {
 	padding: 50px 40px;
 	/* with border-box, padding is included in the  body's height/width */
