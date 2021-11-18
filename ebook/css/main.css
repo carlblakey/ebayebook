@@ -3487,6 +3487,11 @@ animation-duration: .75s;}
 	align-items: center;
 }
 
+.tabs-link.button:hover {
+    text-decoration: none;
+    color: var(--ebay-t5);
+}
+
 /* TOC */
 .wowbook-toc a {
 	color: white !important;}
