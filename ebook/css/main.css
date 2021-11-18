@@ -196,10 +196,7 @@ ul li:marker{ font-size:1em; }
 /* Font Sizes */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'MarketSans-Bold-WebXL', Helvetica, Arial, sans-serif;
-	margin-top: 10px;
-	letter-spacing: 2px;
-	margin-bottom: 1rem;
+  font-family: 'MarketSans-Bold-WebS', Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -397,7 +394,7 @@ p:last-child {
     } 
 
     .title-001-div1, .title-001-div2, .title-001-div3, .title-001-div4, .title-001-div5 {
-        padding: 1rem;
+        padding: 1rem 1.75rem;
     }
 
 
@@ -432,7 +429,7 @@ p:last-child {
     } 
 
     .title-002-div1, .title-002-div2, .title-002-div3, .title-002-div4, .title-002-div5 {
-        padding: 1rem;
+        padding: 1rem 1.75rem;
     }
 
 .page-container {
