@@ -623,7 +623,7 @@ p:last-child {
 }
 .page-cont-04 {
 	background: var(--ebay-b1);
-    padding: 2rem;
+    padding: 1rem;
     flex-grow: 1;
 }
 
@@ -3441,7 +3441,6 @@ ul.tabs-02 li:hover{
      display: none;
     opacity: 0;
 	visibility: hidden;
-    position: absolute;
 	 -webkit-transition: opacity 0.3s;
     -moz-transition: opacity 0.3s;
     -o-transition: opacity 0.3s;
