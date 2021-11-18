@@ -592,19 +592,6 @@ p:last-child {
     flex-grow: 1;
 }
 
-
-.page-cont-02 {
-	 position: relative;
-    top: -80px;
-    left: 15%;
-}
-
-.page-cont-02 svg {
-	height: 232px;
-	width: 250px;
-	overflow: visible;
-}
-
 .page-cont-03 {
 	 position: absolute;
     bottom: -1em;
