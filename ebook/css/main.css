@@ -124,20 +124,6 @@ ul {padding-inline-start: 24px;
 
 ul li:marker{ font-size:1em; }
 
-.button::after {
-    font-family: 'ebi-icons';
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-weight: normal;
-    text-transform: none;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 1em;
-    content: "";
-    font-size: 1.2em;
-    font-variant: normal;
-    text-decoration: none;
-}
 
 /* ==========================================================================
    Author's custom styles
@@ -3418,23 +3404,21 @@ ul.tabs-02 li{
     margin: .5em 0;
     -webkit-transition: all .3s ease;
     transition: all .5s ease;
-    border: 1px solid lightgray;
-    background: var(--ebay-t1);
+   background: var(--ebay-t1);
     }
 
-    ul.tabs-02 li.current{
+ul.tabs-02 li.current{
         background: #E1E4E5 !important;
         color: #222;
 		-webkit-transition: all .3s ease;
 	transition: all .3s ease;
-    }
+}
 
 ul.tabs-02 li:hover{
-        background: #E1E4E5 !important;
-        color: #222;
-		-webkit-transition: all .3s ease;
+    background: var(--ebay-b5) !important;
+	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
-    }
+}
 
 
 .tab-content{
@@ -3445,8 +3429,7 @@ ul.tabs-02 li:hover{
     -moz-transition: opacity 0.3s;
     -o-transition: opacity 0.3s;
     transition: opacity 0.3s, visibility 0s ease 500ms;
-
-    }
+}
 
 .tab-content.current{
     display: flex;
@@ -3478,7 +3461,22 @@ animation-duration: .75s;}
 
 .tabs-link.button:hover {
     text-decoration: none;
-    color: var(--ebay-t5);
+    color: var(--ebay-t1);
+}
+
+.button::after {
+    font-family: 'ebi-icons';
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1em;
+    content: "";
+    font-size: 1.2em;
+    font-variant: normal;
+    text-decoration: none;
 }
 
 /* TOC */
