@@ -1,3 +1,43 @@
+/* Ebay Webfonts Paragraph */
+
+@font-face {
+    font-family: 'MarketSans-Regular-WebS';
+    src:  url('webfont/MarketSans-Regular-WebS.woff2') format('woff2'),
+          url('webfont/MarketSans-Regular-WebS.woff') format('woff'),
+          url('webfont/MarketSans-Regular-WebS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'MarketSans-Bold-WebS';
+    src:url('webfont/MarketSans-Bold-WebS.woff2') format('woff2'),
+          url('webfont/MarketSans-Bold-WebS.woff') format('woff'),
+          url('webfont/MarketSans-Bold-WebS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Ebay Webfonts Titles */
+  
+  @font-face {
+    font-family: 'MarketSans-Regular-WebXL';
+      src:url('webfont/MarketSans-Regular-WebXL.woff2') format('woff2'),
+          url('webfont/MarketSans-Regular-WebXL.woff') format('woff'),
+          url('webfont/MarketSans-Regular-WebXL.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+  }
+  
+  @font-face {
+      font-family: 'MarketSans-Bold-WebXL';
+      src:url('webfont/MarketSans-Bold-WebXL.woff2') format('woff2'),
+          url('webfont/MarketSans-Bold-WebXL.woff') format('woff'),
+          url('webfont/MarketSans-Bold-WebXL.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal; 
+    }
+
 /*
  * HTML5 Boilerplate
  *
@@ -21,7 +61,8 @@ textarea {
 
 body {
     font-size: 18px;
-    line-height: 1.5
+    line-height: 1.5;
+    font-family: 'MarketSans-Regular-WebS';
 }
 
 a {
@@ -64,46 +105,6 @@ textarea {
     resize: vertical;
 }
 
-
-/* Ebay Webfonts Paragraph */
-
-@font-face {
-    font-family: 'MarketSans-Regular-WebS';
-    src:  url('webfont/MarketSans-Regular-WebS.woff2') format('woff2'),
-          url('webfont/MarketSans-Regular-WebS.woff') format('woff'),
-          url('webfont/MarketSans-Regular-WebS.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'MarketSans-Bold-WebS';
-    src:url('webfont/MarketSans-Bold-WebS.woff2') format('woff2'),
-          url('webfont/MarketSans-Bold-WebS.woff') format('woff'),
-          url('webfont/MarketSans-Bold-WebS.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  /* Ebay Webfonts Titles */
-  
-  @font-face {
-    font-family: 'MarketSans-Regular-WebXL';
-      src:url('webfont/MarketSans-Regular-WebXL.woff2') format('woff2'),
-          url('webfont/MarketSans-Regular-WebXL.woff') format('woff'),
-          url('webfont/MarketSans-Regular-WebXL.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal; 
-  }
-  
-  @font-face {
-      font-family: 'MarketSans-Bold-WebXL';
-      src:url('webfont/MarketSans-Bold-WebXL.woff2') format('woff2'),
-          url('webfont/MarketSans-Bold-WebXL.woff') format('woff'),
-          url('webfont/MarketSans-Bold-WebXL.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal; 
-    }
 
 
 /* Ordered List Default Styles */
