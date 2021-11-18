@@ -3402,18 +3402,17 @@ ul.tabs-02 li{
     margin: .5em 0;
     -webkit-transition: all .3s ease;
     transition: all .5s ease;
-   background: var(--ebay-t1);
+   background: var(--ebay-t5);
     }
 
 ul.tabs-02 li.current{
-        background: #E1E4E5 !important;
-        color: #222;
-		-webkit-transition: all .3s ease;
+    background: var(--ebay-t3) !important
+	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
 }
 
 ul.tabs-02 li:hover{
-    background: var(--ebay-b5) !important;
+    background: var(--ebay-t6) !important;
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
 }
