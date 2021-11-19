@@ -3433,7 +3433,7 @@ color: #623F00 !important;
 }
 
 #slider ul li > span {
-    padding: 1em 2em;
+    padding: 1em 3em;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
@@ -3493,7 +3493,7 @@ a.control_prev:before {
     vertical-align: middle;
     line-height: 1em;
     content: "";
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     left: 0;
 }
 
@@ -3510,7 +3510,7 @@ a.control_next:before {
     vertical-align: middle;
     line-height: 1em;
     content: "";
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .slider_option {
@@ -3597,7 +3597,7 @@ ul.tabs-02 li:hover{
 }
 
 .tab-content.current img {
-	margin-bottom: 1.5rem}
+	margin-bottom: 2.5rem}
 
 .tabs-link {
     display: flex;
