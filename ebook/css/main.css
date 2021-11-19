@@ -269,8 +269,14 @@ p:last-child {
     content: "";
     font-size: 1.2em;
     margin-left: 5px;
+    transition: transform 0.3s ease;
+  transform: translateX(0px);
 }
 
+.cta-arrow:after:hover
+{
+ transform: translateX(10px);
+} 
 
 /* Page Structure */
 
@@ -492,6 +498,7 @@ p:last-child {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin-bottom: 2rem;
     }
     .parent-toc-01 > div {
         padding: 1.25rem;
