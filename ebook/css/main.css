@@ -3393,6 +3393,10 @@ color: #623F00 !important;
 
 #slider ul li > span {
     padding: 1em 1em;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #slider ul li > span h3 {
