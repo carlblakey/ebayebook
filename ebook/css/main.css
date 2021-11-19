@@ -278,6 +278,16 @@ p:last-child {
  transform: translateX(10px);
 } 
 
+.cta-arrow {
+    transition: transform 0.3s ease;
+    transform: translateX(0px);
+}
+
+.cta-arrow:hover
+{
+ transform: translateX(10px);
+} 
+
 /* Page Structure */
 
 /* Grid layout front cover */
