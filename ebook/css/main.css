@@ -313,6 +313,9 @@ p:last-child {
     color: #c2f2ef;
     display: grid;
     place-items: center;
+    background-image: url(../img/logo-white.svg);
+    background-size: cover;
+    background-position: center top;
 } 
 
 .fc-div1, .fc-div2, .fc-div3, .fc-div4, .fc-div5, .fc-div6 {
