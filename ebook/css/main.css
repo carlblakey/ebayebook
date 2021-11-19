@@ -454,6 +454,17 @@ p:last-child {
     height: 100%;
 }
 
+.page-container-no-pad {
+	padding: 0;
+	/* with border-box, padding is included in the  body's height/width */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .main-title {
 	position: relative;
 	top: 0px;
