@@ -566,7 +566,7 @@ color: var(--ebay-t3);
 }
 
 .img-container {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 .main-title {
 	position: relative;
@@ -3441,7 +3441,7 @@ color: #623F00 !important;
 
 #slider ul li > span > p {
     font-size: 1.5rem;
-    line-height: 1.5;
+    line-height: 2.25rem;
 }
 
 #slider ul li > span h3 {
@@ -3596,7 +3596,7 @@ ul.tabs-02 li:hover{
 }
 
 .tab-content.current img {
-	margin-bottom: 1rem}
+	margin-bottom: 1.5rem}
 
 .tabs-link {
     display: flex;
