@@ -3406,7 +3406,7 @@ ul.tabs-02 li{
     }
 
 ul.tabs-02 li.current{
-    background: var(--ebay-t3) !important
+    background: var(--ebay-b6) !important;
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
 }
