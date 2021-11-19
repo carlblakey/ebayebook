@@ -3412,7 +3412,7 @@ color: #623F00 !important;
 
 a.control_prev, a.control_next {
   position: absolute;
-  top: 35%;
+  top: 50%;
   z-index: 10;
   display: block;
   width: auto;
