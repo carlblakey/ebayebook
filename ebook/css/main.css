@@ -3430,7 +3430,7 @@ color: #623F00 !important;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 #slider ul li > span h3 {
