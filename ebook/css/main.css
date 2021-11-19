@@ -278,16 +278,17 @@ p:last-child {
  transform: translateX(10px);
 } 
 
-.cta-arrow {
+a.cta-arrow {
     color: var(--ebay-t1);
     transition: transform 0.3s ease;
     transform: translateX(0px);
 }
 
-.cta-arrow:hover
+a.cta-arrow:hover
 {
-    color: var(--ebay-t3);
+color: var(--ebay-t3);
  transform: translateX(10px);
+ text-decoration: none;
 } 
 
 /* Page Structure */
