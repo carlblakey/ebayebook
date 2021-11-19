@@ -3411,6 +3411,8 @@ color: #623F00 !important;
   /*background: #a0d9f7;*/
  align-items: center;
 	flex-direction: column;
+    font-size: 2rem;
+line-height: 2.5rem;
 }
 
 #slider ul li > span {
