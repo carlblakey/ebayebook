@@ -3385,26 +3385,22 @@ color: #623F00 !important;
   margin: 0;
   padding: 0;
   width: 572px;
-  height: 900px;
+  height: 830px;
   /*background: #a0d9f7;*/
-	color:#69230F !important;
-  align-items: center;
+ align-items: center;
 	flex-direction: column;
 }
 
 #slider ul li > span {
     padding: 1em 1em;
-	color: #69230F !important;
 }
 
 #slider ul li > span h3 {
-	color: #69230F !important;
 	margin-top:0;
 	font-size: 1.5em;
 	padding: 0 0 1em 0;
 	margin: 0;
 }
-
 
 a.control_prev, a.control_next {
   position: absolute;
@@ -3415,7 +3411,7 @@ a.control_prev, a.control_next {
   height: auto;
   text-decoration: none;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 24px;
   opacity: 0.5;
   cursor: pointer;
 }
@@ -3447,7 +3443,7 @@ a.control_prev:before {
     vertical-align: middle;
     line-height: 1em;
     content: "";
-    font-size: 1.2em;
+    font-size: 1.5rem;
     left: 0;
 }
 
@@ -3464,7 +3460,7 @@ a.control_next:before {
     vertical-align: middle;
     line-height: 1em;
     content: "";
-    font-size: 1.2em;
+    font-size: 1.5rem;
 }
 
 .slider_option {
