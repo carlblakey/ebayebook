@@ -559,6 +559,9 @@ color: var(--ebay-t3);
     color: var(--ebay-t5);
 }
 
+.img-container {
+    margin-bottom: 1rem;
+}
 .main-title {
 	position: relative;
 	top: 0px;
@@ -3417,10 +3420,9 @@ color: #623F00 !important;
   width: 572px;
   height: 830px;
   /*background: #a0d9f7;*/
- align-items: center;
+    align-items: center;
 	flex-direction: column;
-    font-size: 2rem;
-line-height: 2.5rem;
+
 }
 
 #slider ul li > span {
@@ -3581,7 +3583,6 @@ ul.tabs-02 li:hover{
     margin-bottom: .5rem;
     line-height: 1.5;
 }
-
 
 .tab-content.current img {
 	margin-bottom: 1rem}
