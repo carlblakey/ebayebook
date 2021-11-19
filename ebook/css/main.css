@@ -503,6 +503,7 @@ p:last-child {
         background: var(--ebay-t5); 
         display: grid;
         justify-content: left;
+        align-items: center;
         color: var(--ebay-t1);
         }
     .div2-toc-01 { 
