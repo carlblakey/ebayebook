@@ -3584,9 +3584,7 @@ ul.tabs-02 li:hover{
 
 
 .tab-content.current img {
-	margin: 0 auto;
--o-animation-duration: .75s;
-animation-duration: .75s;}
+	margin-bottom: 1rem}
 
 .tabs-link {
     display: flex;
