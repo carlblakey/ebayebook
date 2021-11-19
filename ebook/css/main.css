@@ -3561,6 +3561,8 @@ ul.tabs-02 li:hover{
 .tab-content.current{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    height: 830px;
 	padding: 2em;
     opacity: 1;
 	visibility: visible;
@@ -3573,6 +3575,13 @@ ul.tabs-02 li:hover{
 .tab-content.current h3{
     font-size: 1.25em;
     }
+
+.tab-content > p {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    line-height: 1.5;
+}
+
 
 .tab-content.current img {
 	margin: 0 auto;
