@@ -3593,7 +3593,7 @@ ul.tabs-02 li:hover{
 .tab-content > p {
     margin-top: .5rem;
     margin-bottom: .5rem;
-    line-height: 1.5;
+    line-height: 1.35;
 }
 
 .tab-content.current img {
