@@ -3143,7 +3143,7 @@ body, html,
   width: 100%;
   display: none;
   padding: 1rem;
-  background: ffffff52;
+  background: #ffffff52;
 	transition: all .3s ease-in-out;
 	animation: fadeIn linear .3s;
 	
