@@ -642,7 +642,7 @@ span.ebay-stat-number:hover {
         place-items: center;
         padding: 1rem;
         background: var(--ebay-b4);
-        color:var(--ebay-b1)
+        color:#ffffff;
     } 
 
 .page-container-no-pad {
