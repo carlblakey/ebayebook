@@ -3518,9 +3518,9 @@ color: #623F00 !important;
 
 /* Slider adapted from https://codepen.io/zuraizm/pen/vGDHl */
 .slider {
-  position: absolute;
+  position: relative;
   overflow: hidden;
-  left: 60px;
+  left: 0px;
 }
 
 .slider ul {
@@ -3537,9 +3537,9 @@ color: #623F00 !important;
   float: left;
   margin: 0;
   padding: 0;
-  width: 572px;
+  /*width: 572px;
   height: 830px;
-  /*background: #a0d9f7;*/
+  background: #a0d9f7;*/
     align-items: center;
 	flex-direction: column;
 
