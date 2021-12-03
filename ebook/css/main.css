@@ -611,6 +611,7 @@ span.ebay-stat-number:hover {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 1px;
     grid-row-gap: 1px;
+    margin-bottom: 2rem;
     }
     
     .div1-new-skills { 
