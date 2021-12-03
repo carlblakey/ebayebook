@@ -615,17 +615,17 @@ span.ebay-stat-number:hover {
     
     .div1-new-skills { 
         grid-area: 1 / 1 / 3 / 3; 
-        padding: 2rem;
+        padding: 1rem;
         background: var(--ebay-t3);
     }
     .div2-new-skills { 
         grid-area: 1 / 3 / 2 / 4;
-        padding: 2rem;
+        padding: 1rem;
         background: var(--ebay-t3); 
     }
     .div3-new-skills { 
         grid-area: 2 / 3 / 3 / 4; 
-        padding: 2rem;
+        padding: 1rem;
         background: var(--ebay-t3);
     } 
 
