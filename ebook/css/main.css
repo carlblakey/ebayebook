@@ -3520,7 +3520,7 @@ color: #623F00 !important;
 .slider {
   position: relative;
   overflow: hidden;
-  left: 0px;
+  left: -15px;
 }
 
 .slider ul {
