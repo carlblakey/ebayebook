@@ -3033,7 +3033,6 @@ body, html,
   /*transform: rotate(0deg);*/
 }
 
-
 .accordion__item.active > .accordion-header:after {
   content: "";
   transition: .3s all;
@@ -3052,8 +3051,8 @@ body, html,
 
 
 .accordion__item.active .accordion-header {
-   background: #677B8C;
-	color: #F5F6F6;
+   background: var(--ebay-b7);
+	color: #FFFFFF;
 }
 
 .accordion__item .accordion__item .accordion-header {
