@@ -592,6 +592,13 @@ color: var(--ebay-t3);
     min-height: 3rem;
 }*/
 
+.ebay-stat-number {
+    display: block;
+    position: relative;
+    z-index: 200;
+    padding: 4rem;
+}
+
 .container-img-hvr {
     background: #333;
     height: 100px;
