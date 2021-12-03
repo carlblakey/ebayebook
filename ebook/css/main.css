@@ -629,8 +629,13 @@ span.ebay-stat-number:hover {
         place-items: center;
         padding: 0;
         background: var(--ebay-b6);
-        color:var(--ebay-b2) 
+        color:var(--ebay-b1) 
     }
+
+    .div2-new-skills h1 {
+        font-size: 4rem;
+    }
+
     .div3-new-skills { 
         grid-area: 2 / 3 / 3 / 4; 
         display: grid;
@@ -639,7 +644,6 @@ span.ebay-stat-number:hover {
         background: var(--ebay-b4);
         color:var(--ebay-b1)
     } 
-
 
 .page-container-no-pad {
 	padding: 0;
