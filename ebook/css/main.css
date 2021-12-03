@@ -580,6 +580,10 @@ color: var(--ebay-t3);
         padding: 2rem;
     } 
 
+    .c4-izmir figcaption {
+        padding: 0.75em;
+    }
+
 /*
  The Effects Part
 
