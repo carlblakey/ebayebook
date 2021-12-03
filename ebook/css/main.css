@@ -3989,13 +3989,13 @@ a.control_next:before {
 
   /* Slider 02 */
 
-#slider-05 {
+#slider-02 {
     position: relative;
     overflow: hidden;
     left: -15px;
   }
   
-  #slider-05 ul {
+  #slider-02 ul {
     position: relative;
     margin: 0;
     padding: 0;
@@ -4003,7 +4003,7 @@ a.control_next:before {
     list-style: none;
   }
   
-  #slider-05 ul li {
+  #slider-02 ul li {
     position: relative;
     display: flex;
     float: left;
@@ -4017,7 +4017,7 @@ a.control_next:before {
   
   }
   
-  #slider-05 ul li > span {
+  #slider-02 ul li > span {
       padding: 1em 3em;
       display: flex;
       flex-grow: 1;
@@ -4025,12 +4025,12 @@ a.control_next:before {
       justify-content: flex-start;
   }
   
-  #slider-05 ul li > span > p {
+  #slider-02 ul li > span > p {
       font-size: 1.5rem;
       line-height: 2.25rem;
   }
   
-  #slider-05 ul li > span h3 {
+  #slider-02 ul li > span h3 {
       margin-top:0;
       font-size: 1.5em;
       padding: 0 0 1em 0;
