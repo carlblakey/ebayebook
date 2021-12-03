@@ -587,6 +587,10 @@ color: var(--ebay-t3);
 /*
  The Effects Part
 */
+
+.container-img-hvr {
+    min-height: 3rem;
+}
 .hover-hide,
 .hover-show {
   color: #fff;
