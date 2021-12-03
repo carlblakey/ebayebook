@@ -3105,7 +3105,6 @@ body, html,
   flex-wrap: wrap;
 	-webkit-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
-	font-family: 'Optimistic-Text-light', Helvetica, Arial, sans-serif;
 }
 
 .tabs label {
@@ -3118,11 +3117,10 @@ body, html,
  color: #155257 !important;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
-	font-family: 'Optimistic-Text-Medium', Helvetica, Arial, sans-serif;
 }
 
 .tabs label:hover {
-	border-bottom: 4px solid #155257 !important;
+	border-bottom: 6px solid var(--ebay-b7) !important;
 }
 
 .tabs .tab {
@@ -3148,7 +3146,7 @@ body, html,
 
 .tabs input[type="radio"]:checked + label {
   	color: #155257 !important;
-	border-bottom: 4px solid #155257 !important;
+	border-bottom: 6px solid (--ebay-b5) !important;
 }
 
 .tabs input[type="radio"]:checked + label + .tab {
