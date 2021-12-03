@@ -628,14 +628,16 @@ span.ebay-stat-number:hover {
         display: grid;
         place-items: center;
         padding: 0;
-        background: var(--ebay-t3); 
+        background: var(--ebay-b6);
+        color:var(--ebay-b2) 
     }
     .div3-new-skills { 
         grid-area: 2 / 3 / 3 / 4; 
         display: grid;
         place-items: center;
         padding: 1rem;
-        background: var(--ebay-t3);
+        background: var(--ebay-b4);
+        color:var(--ebay-b1)
     } 
 
 
