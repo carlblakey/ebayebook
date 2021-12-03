@@ -599,6 +599,10 @@ color: var(--ebay-t3);
     padding: 4rem;
 }
 
+span.ebay-stat-number:hover {
+    opacity: 0;
+}
+
 .container-img-hvr {
     background: #333;
     height: 100px;
