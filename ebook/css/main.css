@@ -3005,6 +3005,11 @@ body, html,
 	/*line-height: 1.35em;
 	font-size: 0.9em;*/
 }
+
+.accordion-body__contents p {
+    margin: 0;
+}
+
 .accordion-body__contents li { 
 	padding-bottom: 8px;
 }
