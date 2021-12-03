@@ -2971,11 +2971,11 @@ body, html,
 
 .accordion-header {
   padding: 1em 0.75em;
-   background: #CCD1D4;
+   background: var(--ebay-b5);
   cursor: pointer;
   transition: all .3s;
 	font-family: 'Optimistic-Text-light', Helvetica, Arial, sans-serif;
-	color: #344854;
+	color: #FFFFFF;
 	font-size: 1.1em;
 	line-height: 1em;
 }
