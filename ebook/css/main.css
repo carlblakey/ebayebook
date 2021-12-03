@@ -3516,16 +3516,14 @@ color: #623F00 !important;
   }
 }
 
-
-
 /* Slider adapted from https://codepen.io/zuraizm/pen/vGDHl */
-#slider {
+.slider {
   position: absolute;
   overflow: hidden;
   left: 60px;
 }
 
-#slider ul {
+.slider ul {
   position: relative;
   margin: 0;
   padding: 0;
@@ -3533,7 +3531,7 @@ color: #623F00 !important;
   list-style: none;
 }
 
-#slider ul li {
+.slider ul li {
   position: relative;
   display: flex;
   float: left;
@@ -3547,7 +3545,7 @@ color: #623F00 !important;
 
 }
 
-#slider ul li > span {
+.slider ul li > span {
     padding: 1em 3em;
     display: flex;
     flex-grow: 1;
@@ -3555,12 +3553,12 @@ color: #623F00 !important;
     justify-content: flex-start;
 }
 
-#slider ul li > span > p {
+.slider ul li > span > p {
     font-size: 1.5rem;
     line-height: 2.25rem;
 }
 
-#slider ul li > span h3 {
+.slider ul li > span h3 {
 	margin-top:0;
 	font-size: 1.5em;
 	padding: 0 0 1em 0;
