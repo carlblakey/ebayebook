@@ -2989,7 +2989,7 @@ body, html,
 }
 
 .accordion-header:hover {
-   background: #677B8C;
+    background: var(--ebay-b4);
 	color: #F5F6F6;
   position: relative;
   z-index: 5;
