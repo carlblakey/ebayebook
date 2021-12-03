@@ -2974,10 +2974,9 @@ body, html,
    background: var(--ebay-b5);
   cursor: pointer;
   transition: all .3s;
-	font-family: 'Optimistic-Text-light', Helvetica, Arial, sans-serif;
 	color: #FFFFFF;
-	font-size: 1.1em;
-	line-height: 1em;
+	font-size: 1.25rem;
+	line-height: 1;
 }
 
 .accordion__item {
