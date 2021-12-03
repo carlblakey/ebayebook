@@ -3130,8 +3130,8 @@ body, html,
           flex-grow: 1;
   width: 100%;
   display: none;
-  padding: 1rem 0;
-  background: #f5f5f5;
+  padding: 1rem;
+  background: #ffffff;
 	transition: all .3s ease-in-out;
 	animation: fadeIn linear .3s;
 	
