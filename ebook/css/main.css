@@ -3122,8 +3122,8 @@ body, html,
   -webkit-box-ordinal-group: 2;
   order: 1;
   display: block;
-  padding: 0.5rem 1rem;
-    margin-right: 2rem;
+  padding: 0.5rem 2rem;
+    margin-right: 1rem;
   cursor: pointer;
   background: #ffffff52;;
  color: #155257 !important;
@@ -3132,7 +3132,7 @@ body, html,
 }
 
 .tabs label:hover {
-	border-bottom: 6px solid var(--ebay-b7) !important;
+	border-top: 6px solid var(--ebay-b2) !important;
 }
 
 .tabs .tab {
@@ -3159,7 +3159,7 @@ body, html,
 .tabs input[type="radio"]:checked + label {
   	color: #155257 !important;
       background: #ffffff;
-	border-bottom: 6px solid (--ebay-b5) !important;
+	border-top: 6px solid var(--ebay-b2) !important;
 }
 
 .tabs input[type="radio"]:checked + label + .tab {
