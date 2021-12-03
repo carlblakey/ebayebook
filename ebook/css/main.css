@@ -549,8 +549,8 @@ color: var(--ebay-t3);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     }
     
     .div1-img-hvr  { 
@@ -609,8 +609,8 @@ span.ebay-stat-number:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 1px;
-    grid-row-gap: 1px;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
     margin-bottom: 2rem;
     }
     
