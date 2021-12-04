@@ -4104,7 +4104,9 @@ a.control_next:before {
     width: 160px;
     font-size: 18px;
   }
-
+  .img-container-02 > img {
+    margin-bottom: 2rem;
+}
 
 /* Tabs https://codepen.io/cssjockey/pen/jGzuK */
 .tabs-02 {display: -webkit-box;
