@@ -3683,7 +3683,7 @@ a.control_next:before {
       margin: 0;
   }
   
-  a.control_prev, a.control_next {
+  a.control_prev-02, a.control_next-02 {
     position: absolute;
     top: 50%;
     z-index: 10;
@@ -3698,20 +3698,20 @@ a.control_next:before {
   }
   
   
-  a.control_prev:hover, a.control_next:hover {
+  a.control_prev-02:hover, a.control_next-02:hover {
     opacity: 1;
     -webkit-transition: all 1.2s ease;
   }
   
-  a.control_prev {
+  a.control_prev-02 {
       left: 0%;
   }
   
-  a.control_next {
+  a.control_next-02 {
       right: 0%;
   }
   
-  a.control_prev:before {
+  a.control_prev-02:before {
       font-family: "ebi-icons";
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -3728,7 +3728,7 @@ a.control_next:before {
       left: 0;
   }
   
-  a.control_next:before {
+  a.control_next-02:before {
       font-family: "ebi-icons";
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -3816,20 +3816,20 @@ a.control_next:before {
   }
   
   
-  a.control_prev:hover, a.control_next:hover {
+  a.control_prev-03:hover, a.control_next-03:hover {
     opacity: 1;
     -webkit-transition: all 1.2s ease;
   }
   
-  a.control_prev {
+  a.control_prev-03 {
       left: 0%;
   }
   
-  a.control_next {
+  a.control_next-03 {
       right: 0%;
   }
   
-  a.control_prev:before {
+  a.control_prev-03:before {
       font-family: "ebi-icons";
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -3846,7 +3846,7 @@ a.control_next:before {
       left: 0;
   }
   
-  a.control_next:before {
+  a.control_next-03:before {
       font-family: "ebi-icons";
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -3919,7 +3919,7 @@ a.control_next:before {
       margin: 0;
   }
   
-  a.control_prev, a.control_next {
+  a.control_prev-04, a.control_next-04{
     position: absolute;
     top: 50%;
     z-index: 10;
@@ -3934,20 +3934,20 @@ a.control_next:before {
   }
   
   
-  a.control_prev:hover, a.control_next:hover {
+  a.control_prev-04:hover, a.control_next-04:hover {
     opacity: 1;
     -webkit-transition: all 1.2s ease;
   }
   
-  a.control_prev {
+  a.control_prev-04 {
       left: 0%;
   }
   
-  a.control_next {
+  a.control_next-04 {
       right: 0%;
   }
   
-  a.control_prev:before {
+  a.control_prev-04:before {
       font-family: "ebi-icons";
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -3964,7 +3964,7 @@ a.control_next:before {
       left: 0;
   }
   
-  a.control_next:before {
+  a.control_next-04:before {
       font-family: "ebi-icons";
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -4037,7 +4037,7 @@ a.control_next:before {
       margin: 0;
   }
   
-  a.control_prev, a.control_next {
+  a.control_prev-05, a.control_next-05 {
     position: absolute;
     top: 50%;
     z-index: 10;
@@ -4052,20 +4052,20 @@ a.control_next:before {
   }
   
   
-  a.control_prev:hover, a.control_next:hover {
+  a.control_prev-05:hover, a.control_next-05:hover {
     opacity: 1;
     -webkit-transition: all 1.2s ease;
   }
   
-  a.control_prev {
+  a.control_prev-05 {
       left: 0%;
   }
   
-  a.control_next {
+  a.control_next-05 {
       right: 0%;
   }
   
-  a.control_prev:before {
+  a.control_prev-05:before {
       font-family: "ebi-icons";
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -4082,7 +4082,7 @@ a.control_next:before {
       left: 0;
   }
   
-  a.control_next:before {
+  a.control_next-05:before {
       font-family: "ebi-icons";
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
