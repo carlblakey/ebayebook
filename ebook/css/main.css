@@ -3664,7 +3664,7 @@ a.control_next:before {
   }
   
   #slider-02 ul li > span {
-      padding: 1em 3em;
+      padding: 1em 2.25em;
       display: flex;
       flex-grow: 1;
       flex-direction: column;
@@ -3782,7 +3782,7 @@ a.control_next:before {
   }
   
   #slider-03 ul li > span {
-      padding: 1em 3em;
+      padding: 1em 2.25em;
       display: flex;
       flex-grow: 1;
       flex-direction: column;
@@ -3900,7 +3900,7 @@ a.control_next:before {
   }
   
   #slider-04 ul li > span {
-      padding: 1em 3em;
+      padding: 1em 2.25em;
       display: flex;
       flex-grow: 1;
       flex-direction: column;
@@ -4018,7 +4018,7 @@ a.control_next:before {
   }
   
   #slider-05 ul li > span {
-      padding: 1em 3em;
+      padding: 1em 2.25em;
       display: flex;
       flex-grow: 1;
       flex-direction: column;
