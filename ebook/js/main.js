@@ -160,11 +160,11 @@ jQuery(document).ready(function ($) {
           });
       }
   
-      $('a.control_prev').click(function () {
+      $('a.control_prev-02').click(function () {
           moveLeft();
       });
   
-      $('a.control_next').click(function () {
+      $('a.control_next-02').click(function () {
           moveRight();
       });
   
@@ -203,11 +203,11 @@ jQuery(document).ready(function ($) {
           });
       }
   
-      $('a.control_prev').click(function () {
+      $('a.control_prev-03').click(function () {
           moveLeft();
       });
   
-      $('a.control_next').click(function () {
+      $('a.control_next-03').click(function () {
           moveRight();
       });
   
@@ -247,11 +247,11 @@ jQuery(document).ready(function ($) {
           });
       }
   
-      $('a.control_prev').click(function () {
+      $('a.control_prev-04').click(function () {
           moveLeft();
       });
   
-      $('a.control_next').click(function () {
+      $('a.control_next-04').click(function () {
           moveRight();
       });
   
@@ -292,11 +292,11 @@ jQuery(document).ready(function ($) {
           });
       }
   
-      $('a.control_prev').click(function () {
+      $('a.control_prev-05').click(function () {
           moveLeft();
       });
   
-      $('a.control_next').click(function () {
+      $('a.control_next-05').click(function () {
           moveRight();
       });
   
