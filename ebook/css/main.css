@@ -3638,7 +3638,7 @@ a.control_next:before {
 #slider-03 {
     position: relative;
     overflow: hidden;
-    left: -15px;
+    left: 0px;
   }
   
   #slider-03 ul {
