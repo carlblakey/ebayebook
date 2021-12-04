@@ -84,8 +84,7 @@ $( ".cover-image" ).each(function() {
 
 
 // Slider
-
- 
+jQuery(document).ready(function ($) {
 	var slideCount = $('#slider ul li').length;
 	var slideWidth = $('#slider ul li').width();
 	var slideHeight = $('#slider ul li').height();
@@ -122,7 +121,6 @@ $( ".cover-image" ).each(function() {
     $('a.control_next').click(function () {
         moveRight();
     });
-
 });    
 
 
