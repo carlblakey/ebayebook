@@ -3801,7 +3801,7 @@ a.control_next:before {
       margin: 0;
   }
   
-  a.control_prev, a.control_next {
+  a.control_prev-03, a.control_next-03 {
     position: absolute;
     top: 50%;
     z-index: 10;
