@@ -85,14 +85,7 @@ $( ".cover-image" ).each(function() {
 
 // Slider
 
-jQuery(document).ready(function ($) {
-
-  $('#checkbox').change(function(){
-    setInterval(function () {
-        moveRight();
-    }, 3000);
-  });
-  
+ 
 	var slideCount = $('#slider ul li').length;
 	var slideWidth = $('#slider ul li').width();
 	var slideHeight = $('#slider ul li').height();
@@ -137,12 +130,7 @@ jQuery(document).ready(function ($) {
 
 jQuery(document).ready(function ($) {
 
-    $('#checkbox').change(function(){
-      setInterval(function () {
-          moveRight();
-      }, 3000);
-    });
-    
+       
       var slideCount = $('#slider-02 ul li').length;
       var slideWidth = $('#slider-02 ul li').width();
       var slideHeight = $('#slider-02 ul li').height();
@@ -186,13 +174,7 @@ jQuery(document).ready(function ($) {
 
 jQuery(document).ready(function ($) {
 
-    $('#checkbox').change(function(){
-      setInterval(function () {
-          moveRight();
-      }, 3000);
-    });
-    
-      var slideCount = $('#slider-03 ul li').length;
+         var slideCount = $('#slider-03 ul li').length;
       var slideWidth = $('#slider-03 ul li').width();
       var slideHeight = $('#slider-03 ul li').height();
       var sliderUlWidth = slideCount * slideWidth;
@@ -235,12 +217,7 @@ jQuery(document).ready(function ($) {
 
 jQuery(document).ready(function ($) {
 
-    $('#checkbox').change(function(){
-      setInterval(function () {
-          moveRight();
-      }, 3000);
-    });
-    
+     
       var slideCount = $('#slider-04 ul li').length;
       var slideWidth = $('#slider-04 ul li').width();
       var slideHeight = $('#slider-04 ul li').height();
@@ -285,12 +262,7 @@ jQuery(document).ready(function ($) {
 
 jQuery(document).ready(function ($) {
 
-    $('#checkbox').change(function(){
-      setInterval(function () {
-          moveRight();
-      }, 3000);
-    });
-    
+     
       var slideCount = $('#slider-05 ul li').length;
       var slideWidth = $('#slider-05 ul li').width();
       var slideHeight = $('#slider-05 ul li').height();
