@@ -1623,7 +1623,7 @@ color: #623F00 !important;
 }
 
 #slider ul li > span {
-    padding: 1em 3em;
+    padding: 0em 2em;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
