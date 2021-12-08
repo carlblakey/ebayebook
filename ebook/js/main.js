@@ -300,6 +300,95 @@ jQuery(document).ready(function ($) {
   
   });    
 
+// Slider 05
+
+jQuery(document).ready(function ($) {
+
+     
+    var slideCount = $('#slider-06 ul li').length;
+    var slideWidth = $('#slider-06 ul li').width();
+    var slideHeight = $('#slider-06 ul li').height();
+    var sliderUlWidth = slideCount * slideWidth;
+    
+    $('#slider-06').css({ width: slideWidth, height: slideHeight });
+    
+    $('#slider-06 ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+    
+    $('#slider-06 ul li:last-child').prependTo('#slider-06 ul');
+
+    function moveLeft() {
+        $('#slider-06 ul').animate({
+            left: + slideWidth
+        }, 700, function () {
+            $('#slider-06 ul li:last-child').prependTo('#slider-06 ul');
+            $('#slider-06 ul').css('left', '');
+        });
+    }
+
+    function moveRight() {
+        $('#slider-06 ul').animate({
+            left: - slideWidth
+        },700, function () {
+            $('#slider-06 ul li:first-child').appendTo('#slider-06 ul');
+            $('#slider-06 ul').css('left', '');
+        });
+    }
+
+    $('a.control_prev-06').click(function () {
+        moveLeft();
+    });
+
+    $('a.control_next-06').click(function () {
+        moveRight();
+    });
+
+}); 
+
+// Slider 05
+
+jQuery(document).ready(function ($) {
+
+     
+    var slideCount = $('#slider-07 ul li').length;
+    var slideWidth = $('#slider-07 ul li').width();
+    var slideHeight = $('#slider-07 ul li').height();
+    var sliderUlWidth = slideCount * slideWidth;
+    
+    $('#slider-07').css({ width: slideWidth, height: slideHeight });
+    
+    $('#slider-07 ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+    
+    $('#slider-07 ul li:last-child').prependTo('#slider-07 ul');
+
+    function moveLeft() {
+        $('#slider-07 ul').animate({
+            left: + slideWidth
+        }, 700, function () {
+            $('#slider-07 ul li:last-child').prependTo('#slider-07 ul');
+            $('#slider-07 ul').css('left', '');
+        });
+    }
+
+    function moveRight() {
+        $('#slider-07 ul').animate({
+            left: - slideWidth
+        },700, function () {
+            $('#slider-07 ul li:first-child').appendTo('#slider-07 ul');
+            $('#slider-07 ul').css('left', '');
+        });
+    }
+
+    $('a.control_prev-07').click(function () {
+        moveLeft();
+    });
+
+    $('a.control_next-07').click(function () {
+        moveRight();
+    });
+
+}); 
+
+
 
 // Stop videos from playing on page turn
 
