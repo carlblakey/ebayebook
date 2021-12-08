@@ -3664,7 +3664,7 @@ a.control_next:before {
   }
   
   #slider-02 ul li > span {
-      padding: 1em 2.25em;
+      padding: 0em 2em;
       display: flex;
       flex-grow: 1;
       flex-direction: column;
