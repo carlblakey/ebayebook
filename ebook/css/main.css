@@ -1632,8 +1632,8 @@ color: #623F00 !important;
 }
 
 #slider ul li > span > p {
-    font-size: 1.5rem;
-    line-height: 2.25rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
 }
 
 #slider ul li > span h3 {
@@ -1717,6 +1717,7 @@ a.control_next:before {
     position: relative;
     overflow: hidden;
     left: 0px;
+    min-height: 80vh;
   }
   
   #slider-02 ul {
@@ -1750,8 +1751,8 @@ a.control_next:before {
   }
   
   #slider-02 ul li > span > p {
-    font-size: 1rem;
-    line-height: 1.75rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
   }
   
   #slider-02 ul li > span h3 {
@@ -1834,6 +1835,7 @@ a.control_next:before {
     position: relative;
     overflow: hidden;
     left: 0px;
+    min-height: 80vh;
   }
   
   #slider-03 ul {
@@ -1867,8 +1869,8 @@ a.control_next:before {
   }
   
   #slider-03 ul li > span > p {
-    font-size: 1rem;
-    line-height: 1.75rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
   }
   
   #slider-03 ul li > span h3 {
@@ -1951,6 +1953,7 @@ a.control_next:before {
     position: relative;
     overflow: hidden;
     left: 0px;
+    min-height: 80vh;
   }
   
   #slider-04 ul {
@@ -1984,8 +1987,8 @@ a.control_next:before {
   }
   
   #slider-04 ul li > span > p {
-    font-size: 1rem;
-    line-height: 1.75rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
   }
   
   #slider-04 ul li > span h3 {
@@ -2068,6 +2071,7 @@ a.control_next:before {
     position: relative;
     overflow: hidden;
     left: 0px;
+    min-height: 80vh;
   }
   
   #slider-05 ul {
@@ -2100,8 +2104,8 @@ a.control_next:before {
   }
   
   #slider-05 ul li > span > p {
-    font-size: 1rem;
-    line-height: 1.75rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
   }
   
   #slider-05 ul li > span h3 {
@@ -2186,6 +2190,7 @@ a.control_next:before {
     position: relative;
     overflow: hidden;
     left: 0px;
+    min-height: 80vh;
   }
   
   #slider-06 ul {
@@ -2218,8 +2223,8 @@ a.control_next:before {
   }
   
   #slider-06 ul li > span > p {
-    font-size: 1rem;
-    line-height: 1.75rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
   }
   
   #slider-06 ul li > span h3 {
@@ -2296,6 +2301,7 @@ a.control_next:before {
     position: relative;
     overflow: hidden;
     left: 0px;
+    min-height: 80vh;
   }
   
   #slider-07 ul {
@@ -2328,8 +2334,8 @@ a.control_next:before {
   }
   
   #slider-07 ul li > span > p {
-    font-size: 1rem;
-    line-height: 1.75rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
   }
   
   #slider-07 ul li > span h3 {
