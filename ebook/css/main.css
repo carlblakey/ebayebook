@@ -1626,12 +1626,12 @@ color: #623F00 !important;
   }
   
   #slider ul li > span {
-      padding: 0em 2em;
-      display: flex;
-      flex-grow: 1;
-      flex-direction: column;
-      justify-content: flex-start;
-  }
+    padding: 1em 2.25em;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+}
   
   #slider ul li > span > p {
     font-size: 1.25rem;
