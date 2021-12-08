@@ -1609,18 +1609,17 @@ color: #623F00 !important;
   list-style: none;
 }
 
-#slider ul li {
-  position: relative;
-  display: flex;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 572px;
-  height: 830px;
-  /*background: #a0d9f7;*/
-    align-items: center;
-	flex-direction: column;
-
+#slider ul li   {
+        position: relative;
+        display: flex;
+        float: left;
+        margin: 0;
+        padding: 2px;
+        width: 535px;
+        height: 645px;
+        /*background: #a0d9f7;*/
+          align-items: center;
+          flex-direction: column;
 }
 
 #slider ul li > span {
