@@ -1594,115 +1594,12 @@ color: #623F00 !important;
   }
 }
 
-/* Slider adapted from https://codepen.io/zuraizm/pen/vGDHl 
-
-#slider {
-    position: relative;
-    overflow: hidden;
-    left: 0px;
-    min-height: 90vh;
-  }
-  
-  #slider ul {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    height: 200px;
-    list-style: none;
-  }
-  
-  #slider ul li {
-    position: relative;
-    display: flex;
-    float: left;
-    margin: 0;
-    padding: 2px;
-    width: 535px;
-    height: 645px;
-      align-items: center;
-      flex-direction: column;
-  
-  }
-  
-  #slider ul li > span {
-    padding: 1em 2.25em;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    justify-content: flex-start;
+.img-container-02 {
+    margin-bottom: 1rem;
 }
-  
-  #slider ul li > span > p {
-    font-size: 1.25rem;
-    line-height: 2.5rem;
-  }
-  
-  #slider ul li > span h3 {
-      margin-top:0;
-      font-size: 1.5em;
-      padding: 1em 0 1em 0;
-      margin: 0;
-  }
-  
-  a.control_prev, a.control_next {
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    display: block;
-    width: auto;
-    height: auto;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 24px;
-    opacity: 0.5;
-    cursor: pointer;
-  }
-  
-   a.control_prev:hover, a.control_next:hover {
-    opacity: 1;
-    -webkit-transition: all 1.2s ease;
-  }
-  
-  a.control_prev {
-      left: 0%;
-  }
-  
-  a.control_next {
-      right: 0%;
-  }
-  
-  a.control_prev:before {
-      font-family: "ebi-icons";
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: normal;
-      text-decoration: none;
-      text-transform: none;
-      display: inline-block;
-      vertical-align: middle;
-      line-height: 1em;
-      content: "";
-      font-size: 2.5rem;
-      left: 0;
-  }
-  
-  a.control_next:before {
-      font-family: "ebi-icons";
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: normal;
-      text-decoration: none;
-      text-transform: none;
-      display: inline-block;
-      vertical-align: middle;
-      line-height: 1em;
-      content: "";
-      font-size: 2.5rem;
-  }*/
+
+/* Slider adapted from https://codepen.io/zuraizm/pen/vGDHl */
+
   #slider {
     position: absolute;
     overflow: hidden;
