@@ -1213,6 +1213,7 @@ body, html,
 }
 
 .tabs .tab {
+    min-height: 72vh;
   -webkit-box-ordinal-group: 100;
           order: 99;
   -webkit-box-flex: 1;
