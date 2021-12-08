@@ -840,37 +840,19 @@ span.ebay-stat-number:hover {
     flex-grow: 1;
 }
 
+.page-cont-05 {
+	background: var(--ebay-b1);
+    padding: 1rem;
+    flex-grow: 1;
+}
+
+
+
 .section-2-align {
 	left: 7px;
     position: relative;
 }
 
-
-
-
-
-
-
-
-.page-bg-02 {
-	background-image: url("../img/page-bg-01.jpg");
-	background-size: cover;
-}
-
-.page-bg-03 {
-	background-image: url("../img/page-bg-52.jpg");
-	background-size: cover;
-}
-
-.page-bg-04 {
-	background-image: url("../img/page-bg-53.jpg");
-	background-size: cover;
-}
-
-.page-bg-05 {
-	background-image: url("../img/page-bg-33.jpg");
-	background-size: cover;
-}
 
 .page-cont-05 {
 	width: 450px;
