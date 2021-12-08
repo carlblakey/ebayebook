@@ -1596,10 +1596,11 @@ color: #623F00 !important;
 
 /* Slider adapted from https://codepen.io/zuraizm/pen/vGDHl */
 #slider {
-  position: relative;
-  overflow: hidden;
-  left: -15px;
-}
+    position: relative;
+    overflow: hidden;
+    left: 0px;
+    min-height: 90vh;
+  }
 
 #slider ul {
   position: relative;
