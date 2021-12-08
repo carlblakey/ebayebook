@@ -84,11 +84,19 @@ $( ".cover-image" ).each(function() {
 
 
 // Slider
+
 jQuery(document).ready(function ($) {
-	var slideCount = $('#slider ul li').length;
-	var slideWidth = $('#slider ul li').width();
-	var slideHeight = $('#slider ul li').height();
-	var sliderUlWidth = slideCount * slideWidth;
+
+    $('#checkbox').change(function(){
+      setInterval(function () {
+          moveRight();
+      }, 3000);
+    });
+    
+      var slideCount = $('#slider ul li').length;
+      var slideWidth = $('#slider ul li').width();
+      var slideHeight = $('#slider ul li').height();
+      var sliderUlWidth = slideCount * slideWidth;
 	
 	$('#slider').css({ width: slideWidth, height: slideHeight });
 	
