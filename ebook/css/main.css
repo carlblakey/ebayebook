@@ -587,9 +587,12 @@ color: var(--ebay-t3);
 .ebay-stat-number {
     position: relative;
     z-index: 200;
-    display: grid;
+    display: flex;
     place-items: center;
     min-height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 span.ebay-stat-number:hover {
@@ -604,6 +607,9 @@ span.ebay-stat-number:hover {
     font-family: 'MarketSans-Bold-WebXL';
 }
 
+.ebay-stat-number > h1 {
+    margin-bottom: 0;
+}
 
 .parent-new-skills {
     display: grid;
