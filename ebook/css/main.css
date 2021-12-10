@@ -723,6 +723,118 @@ span.ebay-stat-number:hover {
 	left: 0px;
 }
 
+.front-cover {
+	width:692px;
+    height:980px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.front-cover-title-01{
+	text-transform: uppercase;
+	color: #e29400;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	letter-spacing: 0.175em;
+}
+
+.front-cover-title-02{
+	font-size: 2.75em;
+	line-height: 1.25em;
+	letter-spacing: 0.05em;
+	color: #ca3112;
+	margin: 0;
+}
+
+.front-cover-title-02 span{
+	color: #fdfada;
+}
+
+.back-cover { 
+	background-color: #F1F4F7 !important;
+}
+
+.cover-title {
+	margin: 20px auto;
+	text-align: left;
+	color: white;
+	/*align-self: flex-start;*/
+	flex: 1 1 auto;
+}
+
+.cover-title > span {
+	height: auto;
+	display: block;
+	padding: 10px 0px; 
+	margin-bottom: 60px;
+}
+
+.cover-title h1 {
+	font-size: 2.5em;
+	margin: 0;
+	padding: 10px 0px; 
+	color: #4e473d;
+	text-align: left;
+	letter-spacing: 2px;;
+	
+}
+
+.cover-title p {
+	font-size: 1.1em;
+	line-height: 1.35em;
+	margin: 0;
+	padding: 10px 0px 40px 0; 
+	color: #4e473d;
+	text-align: left;
+} 
+
+.cover-title img {
+	width: 100%;
+	left:0;
+}
+
+.cover-logo {
+	flex: 1 0 auto;
+	align-items: center;
+  justify-content: center;
+}
+
+.cover-logo > span {
+	height: auto;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.cover-btm-logo {
+	position: absolute;
+    right: 24px;
+    bottom: 12px;	
+}
+
+.cover-back-title {
+	position: relative;
+	top: 460px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	font-weight: 400;
+	text-shadow: 2px 2px 4px rgba(31, 31, 31, 0.5);
+	line-height: 0.9em;
+}
+
+.page-section-title {
+	margin-bottom: 2rem;
+}
+
+.page-section-title span {
+	font-size: .8em;
+	text-transform: uppercase;
+	font-family: 'Optimistic-Title-Medium', Helvetica, Arial, sans-serif;
+	letter-spacing: .15em;
+	margin-left: 1px;
+}
 .white-text {
 	color: #ffffff;
 }
@@ -1464,6 +1576,112 @@ body, html,
     font-size: 2.5rem;}
   
  /* Tabs https://codepen.io/cssjockey/pen/jGzuK */
+
+.tabs-02 {display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+	   -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+ul.tabs-02{
+    margin: 0px;
+    padding: 0px;
+	width: 100%;
+    list-style: none;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+ul.tabs-02 li{
+    font-size: 1.5rem;
+    display: inline-block;
+    cursor: pointer;
+    margin: .5em 0;
+    -webkit-transition: all .3s ease;
+    transition: all .5s ease;
+   background: var(--ebay-t5);
+    }
+
+ul.tabs-02 li.current{
+    background: var(--ebay-b7) !important;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+ul.tabs-02 li:hover{
+    background: var(--ebay-t6) !important;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+
+.tab-content{
+     display: none;
+    opacity: 0;
+	visibility: hidden;
+	 -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s, visibility 0s ease 500ms;
+}
+
+.tab-content.current{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 830px;
+	padding: 2em;
+    opacity: 1;
+	visibility: visible;
+	 -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s, visibility 0s ease 0s;;
+    }
+
+.tab-content.current h3{
+    font-size: 1.25em;
+    }
+
+.tab-content > p {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    line-height: 1.35;
+}
+
+.tab-content.current img {
+	margin-bottom: 2.5rem}
+
+.tabs-link {
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+    color: var(--ebay-b1);
+}
+
+.tabs-link.button:hover {
+    text-decoration: none;
+    color: var(--ebay-t1);
+}
+.button {
+    padding: 3rem;
+}
+.button::after {
+    font-family: 'ebi-icons';
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1em;
+    content: "";
+    font-size: 1.2em;
+    font-variant: normal;
+    text-decoration: none;
+}
 
 /* TOC */
 .wowbook-toc a {
