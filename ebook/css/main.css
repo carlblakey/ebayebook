@@ -1250,6 +1250,10 @@ body, html,
 	
 }
 
+.tab > p:last-child {
+	margin-bottom: 10px;
+}
+
 @keyframes fadeIn{0%{opacity:0}100%{opacity:1}}
 
 
