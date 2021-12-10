@@ -680,12 +680,14 @@ span.ebay-stat-number:hover {
     height: 100%;
 }
 .img-container-02 {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .text-md {
     font-size: 1.15rem;
     font-weight: bold;
     color: var(--ebay-t5);
+    padding-bottom: 0;
+    margin-bottom: 0.5rem;
 }
 
 .text-lg {
