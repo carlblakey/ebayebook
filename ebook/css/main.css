@@ -610,6 +610,10 @@ span.ebay-stat-number:hover {
     margin-bottom: 0;
 }
 
+.ebay-stat-number > p {
+    text-align: center;
+}
+
 .parent-new-skills {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
