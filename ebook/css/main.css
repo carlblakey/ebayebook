@@ -679,6 +679,14 @@ span.ebay-stat-number:hover {
     flex-direction: column;
     height: 100%;
 }
+.img-container-02 {
+    margin-bottom: 1rem;
+}
+.text-md {
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: var(--ebay-t5);
+}
 
 .text-lg {
     font-size: 1.35rem;
@@ -1607,9 +1615,7 @@ color: #623F00 !important;
   }
 }
 
-.img-container-02 {
-    margin-bottom: 1rem;
-}
+
 
 /* Slider adapted from https://codepen.io/zuraizm/pen/vGDHl */
 
