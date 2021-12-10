@@ -663,7 +663,11 @@ span.ebay-stat-number:hover {
     min-height: 50%;
 }
 
-
+.video-container > h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
 .page-container-no-pad {
 	padding: 0;
