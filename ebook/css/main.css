@@ -308,8 +308,13 @@ color: var(--ebay-t3);
 .fc-div1 { 
     grid-area: 1 / 1 / 3 / 5; 
     background: var(--ebay-b7); 
-    color: var(--ebay-t1)
+    color: var(--ebay-t2)
 }
+
+.fc-div1 > h1 { 
+    margin-bottom: .75em;
+}
+
 .fc-div2 { grid-area: 3 / 1 / 4 / 3;  
     background: var(--ebay-t2);
     color: var(--ebay-b7);
