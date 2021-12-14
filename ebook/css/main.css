@@ -589,7 +589,11 @@ color: var(--ebay-t3);
     }
 
 .hover-note {
-    padding: .5em;
+    padding: 0.25em;
+    background: var(--ebay-b5);
+    display: block;
+    color: var(--ebay-b1);
+    text-align: center;
 }
 
 .ebay-stat-number {
