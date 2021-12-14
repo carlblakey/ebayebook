@@ -682,6 +682,11 @@ span.ebay-stat-number:hover {
 .img-container-02 {
     margin-bottom: 2rem;
 }
+
+.text-title-lg {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 .text-md {
     font-size: 1.15rem;
     font-weight: bold;
