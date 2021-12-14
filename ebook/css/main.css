@@ -596,6 +596,12 @@ color: var(--ebay-t3);
     text-align: center;
 }
 
+span.hover-note > p {
+    padding: 0;
+    margin: 0;
+}
+
+
 .ebay-stat-number {
     position: relative;
     z-index: 200;
