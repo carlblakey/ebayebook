@@ -1,2 +1,5 @@
 # Redirect to a URL on the same domain or host
+<<<<<<< HEAD
 Redirect 301 "/ebay" "index.html"
+=======
+
