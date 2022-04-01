@@ -1,0 +1,2 @@
+# Redirect to a URL on the same domain or host
+Redirect 301 "/ebay" "index.html"
