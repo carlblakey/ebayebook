@@ -1,2 +1,2 @@
 # Redirect to a URL on the same domain or host
-Redirect 301 "/ebay/" "/index.html"
+Redirect 301 "/ebay/" "https:https://snp-ebook.online"
